@@ -51,272 +51,272 @@
    "title": "Cyber Resilience Pledge - list of signatories"
   },
   {
-   "rule": "include",
-   "source_id": "dsit-ip",
-   "title": "Ad-hoc statistical publications list"
+   "rule": "duplicate of a direct source",
+   "source_id": "gn-sep-frand",
+   "title": "Wildanger and AsusTek successful with FRAND defence in UPC dispute against Ericsson"
+  },
+  {
+   "rule": "(?i)\\b(what.s on|christmas \\d{4} on bbc|religious programming|schedule)\\b",
+   "source_id": "gn-bbc-mediacentre",
+   "title": "Christmas 2026 Religious Programming on the BBC"
+  },
+  {
+   "rule": "(?i)\\b(trailer|teaser|first[- ]look (images?|photos?)|red carpet|box office|recap)\\b",
+   "source_id": "gn-bbc-mediacentre",
+   "title": "Trailer for the The Other Bennet Sister three-part special coming this Christmas revealed"
+  },
+  {
+   "rule": "(?i)\\bjoins? (the )?cast\\b|\\bcast(s|ing)? (in|as|for)\\b",
+   "source_id": "gn-bbc-mediacentre",
+   "title": "Ali Fazal, Tom Mison and Fiona Shaw lead the cast for Richie Mehta's A Passage to India, adapted from E.M. Forster's classic novel"
   },
   {
    "rule": "include",
-   "source_id": "dsit-ip",
-   "title": "International Climate Finance"
+   "source_id": "dcms",
+   "title": "DCMS major projects: appointment letters for Senior Responsible Owners (SROs)"
   },
   {
    "rule": "include",
-   "source_id": "dsit-ip",
-   "title": "UK candidacy for International Telecommunication Union Council elections 2026"
+   "source_id": "dcms",
+   "title": "Economic Estimates: Trade for DCMS sectors, 2024"
   },
   {
    "rule": "include",
-   "source_id": "dsit-ip",
-   "title": "Appraisal methods for research and development spending"
+   "source_id": "dcms",
+   "title": "The Million Hours Fund: evaluation reports"
   },
   {
    "rule": "include",
-   "source_id": "dsit-ip",
-   "title": "Software Security Ambassadors Scheme"
+   "source_id": "dcms",
+   "title": "Intergovernmental Relations"
   },
   {
    "rule": "include",
-   "source_id": "dsit-ip",
-   "title": "Cyber Security and Resilience (Network and Information Systems) Bill: factsheets"
+   "source_id": "dcms",
+   "title": "Community and Engagement Survey 2025/26: summary report"
   },
   {
    "rule": "include",
-   "source_id": "dsit-ip",
-   "title": "DWP: Work Hub"
-  },
-  {
-   "rule": "include",
-   "source_id": "dsit-ip",
-   "title": "Artificial Intelligence sector study"
-  },
-  {
-   "rule": "include",
-   "source_id": "dsit-ip",
-   "title": "Artificial Intelligence sector study 2025"
-  },
-  {
-   "rule": "include",
-   "source_id": "dsit-ip",
-   "title": "DSIT: spending over £500"
+   "source_id": "dcms",
+   "title": "Better Futures Fund"
   }
  ],
- "finished_at": "2026-11-24T21:47:18Z",
- "mode": "backfill",
+ "finished_at": "2026-11-24T21:56:41Z",
+ "mode": "normal",
  "sources": {
   "access-advance": {
-   "entries": 10,
-   "new": 6,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "advanced-television": {
-   "entries": 200,
-   "new": 197,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "avanci": {
-   "entries": 5,
-   "new": 3,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "barb": {
-   "entries": 10,
-   "new": 8,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "bbc-news-entertainment": {
-   "entries": 18,
-   "new": 16,
+   "entries": 19,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
   "bbc-news-technology": {
    "entries": 21,
-   "new": 10,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "bbcstudios": {
    "entries": 4,
-   "new": 4,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "broadband-tv-news": {
-   "entries": 200,
-   "new": 200,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "c21": {
-   "entries": 22,
-   "new": 22,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "channel4-press": {
    "entries": 9,
-   "new": 9,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "chinaipr": {
    "entries": 7,
-   "new": 4,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "cityam-media": {
-   "entries": 30,
-   "new": 30,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "cma-media": {
-   "entries": 199,
-   "new": 20,
+   "entries": 100,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "copyright-alliance": {
    "entries": 10,
-   "new": 10,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "creative-commons": {
-   "entries": 10,
-   "new": 10,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "dcms": {
    "entries": 99,
-   "new": 17,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "deadline-bbc": {
-   "entries": 132,
-   "new": 116,
+   "entries": 12,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "deadline-business": {
-   "entries": 240,
-   "new": 227,
+   "entries": 12,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
   "deadline-channel4": {
    "entries": 12,
-   "new": 6,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "deadline-international": {
-   "entries": 240,
-   "new": 205,
+   "entries": 12,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "deadline-itv": {
    "entries": 12,
-   "new": 4,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "dsit-ip": {
-   "entries": 199,
+   "entries": 99,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "dvb": {
-   "entries": 10,
-   "new": 10,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "eff": {
-   "entries": 50,
-   "new": 4,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "enders": {
    "entries": 3,
-   "new": 3,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "fcl-copyright": {
-   "entries": 200,
-   "new": 154,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "fcl-ipec": {
-   "entries": 50,
-   "new": 6,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "fcl-patent-search": {
-   "entries": 50,
-   "new": 21,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "fcl-patents-court": {
-   "entries": 50,
-   "new": 8,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "fcl-trade-marks": {
-   "entries": 50,
-   "new": 8,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "ft-media": {
    "entries": 25,
-   "new": 24,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-bbc-charter": {
-   "entries": 79,
-   "new": 40,
+   "entries": 100,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
   "gn-bbc-mediacentre": {
-   "entries": 100,
-   "new": 44,
+   "entries": 91,
+   "new": 7,
    "revised": 0,
    "status": "ok"
   },
   "gn-bbc-rd": {
-   "entries": 92,
-   "new": 7,
+   "entries": 51,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-broadcast": {
    "entries": 100,
-   "new": 46,
+   "new": 8,
    "revised": 0,
    "status": "ok"
   },
   "gn-campaign-tv": {
    "entries": 100,
-   "new": 48,
+   "new": 30,
    "revised": 0,
    "status": "ok"
   },
@@ -328,177 +328,179 @@
   },
   "gn-ebu": {
    "entries": 100,
-   "new": 3,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-epo": {
    "entries": 100,
-   "new": 33,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-euipo": {
-   "entries": 57,
-   "new": 7,
+   "entries": 58,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-itv-plc": {
    "entries": 100,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-managingip": {
    "entries": 39,
-   "new": 12,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-parliament-media": {
    "entries": 55,
-   "new": 5,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-pressgazette": {
-   "entries": 66,
-   "new": 16,
+   "entries": 65,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-psm": {
-   "entries": 100,
-   "new": 65,
+   "entries": 52,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-sep-frand": {
    "entries": 100,
-   "new": 40,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-ukipo-commentary": {
-   "entries": 100,
-   "new": 29,
+   "entries": 36,
+   "new": 2,
    "revised": 0,
    "status": "ok"
   },
   "gn-upc": {
-   "entries": 32,
-   "new": 3,
+   "entries": 33,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-wipr": {
-   "entries": 100,
-   "new": 25,
+   "entries": 69,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
   "guardian-bbc": {
    "entries": 20,
-   "new": 18,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "guardian-ip": {
    "entries": 20,
-   "new": 19,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "guardian-media": {
    "entries": 20,
-   "new": 20,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "guardian-tv-industry": {
    "entries": 20,
-   "new": 16,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "hbbtv": {
-   "entries": 12,
-   "new": 4,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "iam": {
    "entries": 100,
-   "new": 100,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "ipdraughts": {
    "entries": 4,
-   "new": 4,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "ipfray": {
-   "entries": 200,
-   "new": 200,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "ipkat": {
-   "entries": 150,
-   "new": 96,
+   "entries": 45,
+   "new": 20,
    "revised": 0,
    "status": "ok"
   },
   "ipwatchdog": {
-   "error": "ReadTimeout: The read operation timed out",
-   "status": "error"
+   "entries": 45,
+   "new": 15,
+   "revised": 0,
+   "status": "ok"
   },
   "jdsupra-ip": {
    "error": "AttributeError: object has no attribute 'version'",
    "status": "error"
   },
   "journalism-co-uk": {
-   "entries": 15,
-   "new": 15,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "juve-patent": {
-   "entries": 80,
-   "new": 71,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "kluwer-copyright": {
-   "entries": 7,
-   "new": 7,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "kluwer-patent": {
-   "entries": 7,
-   "new": 7,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "kluwer-trademark": {
-   "entries": 7,
-   "new": 7,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "media-leader": {
-   "entries": 10,
-   "new": 9,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "niemanlab": {
-   "entries": 30,
-   "new": 26,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -508,121 +510,121 @@
   },
   "oin": {
    "entries": 10,
-   "new": 9,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "openuk": {
    "entries": 10,
-   "new": 7,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "osi": {
-   "entries": 10,
-   "new": 10,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "patentlyo": {
-   "entries": 10,
-   "new": 10,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "plagiarism-today": {
-   "entries": 10,
-   "new": 10,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "podnews": {
-   "entries": 151,
-   "new": 64,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "radiotoday": {
-   "entries": 10,
-   "new": 10,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "reuters-institute": {
-   "entries": 10,
-   "new": 9,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "screen-daily": {
    "entries": 5,
-   "new": 4,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "sfc": {
    "entries": 10,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "sky-newsroom": {
    "entries": 100,
-   "new": 51,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "streaming-media": {
    "entries": 25,
-   "new": 25,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "technollama": {
-   "entries": 8,
-   "new": 8,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "thr-business": {
    "entries": 10,
-   "new": 10,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
   "tvbeurope": {
-   "entries": 20,
-   "new": 20,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "ukipo": {
-   "entries": 199,
-   "new": 183,
+   "entries": 99,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "variety-bbc": {
    "entries": 10,
-   "new": 7,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "variety-business": {
    "entries": 10,
-   "new": 10,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "variety-global": {
-   "entries": 200,
-   "new": 190,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "via-la": {
    "entries": 10,
-   "new": 7,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -634,24 +636,24 @@
   },
   "wipo-press": {
    "entries": 10,
-   "new": 5,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "wtr": {
    "entries": 100,
-   "new": 100,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   }
  },
- "started_at": "2026-11-24T21:44:41Z",
+ "started_at": "2026-11-24T21:55:59Z",
  "totals": {
-  "dropped": 593,
-  "entries": 5280,
-  "failing": 3,
-  "new": 3155,
-  "ok": 88,
+  "dropped": 170,
+  "entries": 2431,
+  "failing": 2,
+  "new": 87,
+  "ok": 89,
   "revised": 0
  }
 }
