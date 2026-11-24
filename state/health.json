@@ -1,0 +1,1258 @@
+{
+ "access-advance": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 6
+  },
+  "new_last_run": 6
+ },
+ "advanced-television": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 200,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 197
+  },
+  "new_last_run": 197
+ },
+ "avanci": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 5,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 3
+  },
+  "new_last_run": 3
+ },
+ "barb": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 8
+  },
+  "new_last_run": 8
+ },
+ "bbc-news-entertainment": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 18,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 16
+  },
+  "new_last_run": 16
+ },
+ "bbc-news-technology": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 21,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 10
+  },
+  "new_last_run": 10
+ },
+ "bbcstudios": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 4,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 4
+  },
+  "new_last_run": 4
+ },
+ "broadband-tv-news": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 200,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 200
+  },
+  "new_last_run": 200
+ },
+ "c21": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 22,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 22
+  },
+  "new_last_run": 22
+ },
+ "channel4-press": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 9,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 9
+  },
+  "new_last_run": 9
+ },
+ "chinaipr": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 7,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 4
+  },
+  "new_last_run": 4
+ },
+ "cityam-media": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 30,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 30
+  },
+  "new_last_run": 30
+ },
+ "cma-media": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 199,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 20
+  },
+  "new_last_run": 20
+ },
+ "copyright-alliance": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 10
+  },
+  "new_last_run": 10
+ },
+ "creative-commons": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 10
+  },
+  "new_last_run": 10
+ },
+ "dcms": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 99,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 17
+  },
+  "new_last_run": 17
+ },
+ "deadline-bbc": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 132,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 116
+  },
+  "new_last_run": 116
+ },
+ "deadline-business": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 240,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 227
+  },
+  "new_last_run": 227
+ },
+ "deadline-channel4": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 12,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 6
+  },
+  "new_last_run": 6
+ },
+ "deadline-international": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 240,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 205
+  },
+  "new_last_run": 205
+ },
+ "deadline-itv": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 12,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 4
+  },
+  "new_last_run": 4
+ },
+ "dsit-ip": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 199,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 0
+  },
+  "new_last_run": 0
+ },
+ "dvb": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 10
+  },
+  "new_last_run": 10
+ },
+ "eff": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 50,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 4
+  },
+  "new_last_run": 4
+ },
+ "enders": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 3,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 3
+  },
+  "new_last_run": 3
+ },
+ "fcl-copyright": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 200,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 154
+  },
+  "new_last_run": 154
+ },
+ "fcl-ipec": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 50,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 6
+  },
+  "new_last_run": 6
+ },
+ "fcl-patent-search": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 50,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 21
+  },
+  "new_last_run": 21
+ },
+ "fcl-patents-court": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 50,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 8
+  },
+  "new_last_run": 8
+ },
+ "fcl-trade-marks": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 50,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 8
+  },
+  "new_last_run": 8
+ },
+ "ft-media": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 25,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 24
+  },
+  "new_last_run": 24
+ },
+ "gn-bbc-charter": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 79,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 40
+  },
+  "new_last_run": 40
+ },
+ "gn-bbc-mediacentre": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 100,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 44
+  },
+  "new_last_run": 44
+ },
+ "gn-bbc-rd": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 92,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 7
+  },
+  "new_last_run": 7
+ },
+ "gn-broadcast": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 100,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 46
+  },
+  "new_last_run": 46
+ },
+ "gn-campaign-tv": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 100,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 48
+  },
+  "new_last_run": 48
+ },
+ "gn-copyright-ai-uk": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 33,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 0
+  },
+  "new_last_run": 0
+ },
+ "gn-ebu": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 100,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 3
+  },
+  "new_last_run": 3
+ },
+ "gn-epo": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 100,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 33
+  },
+  "new_last_run": 33
+ },
+ "gn-euipo": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 57,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 7
+  },
+  "new_last_run": 7
+ },
+ "gn-itv-plc": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 100,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 1
+  },
+  "new_last_run": 1
+ },
+ "gn-managingip": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 39,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 12
+  },
+  "new_last_run": 12
+ },
+ "gn-parliament-media": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 55,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 5
+  },
+  "new_last_run": 5
+ },
+ "gn-pressgazette": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 66,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 16
+  },
+  "new_last_run": 16
+ },
+ "gn-psm": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 100,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 65
+  },
+  "new_last_run": 65
+ },
+ "gn-sep-frand": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 100,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 40
+  },
+  "new_last_run": 40
+ },
+ "gn-ukipo-commentary": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 100,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 29
+  },
+  "new_last_run": 29
+ },
+ "gn-upc": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 32,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 3
+  },
+  "new_last_run": 3
+ },
+ "gn-wipr": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 100,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 25
+  },
+  "new_last_run": 25
+ },
+ "guardian-bbc": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 20,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 18
+  },
+  "new_last_run": 18
+ },
+ "guardian-ip": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 20,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 19
+  },
+  "new_last_run": 19
+ },
+ "guardian-media": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 20,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 20
+  },
+  "new_last_run": 20
+ },
+ "guardian-tv-industry": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 20,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 16
+  },
+  "new_last_run": 16
+ },
+ "hbbtv": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 12,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 4
+  },
+  "new_last_run": 4
+ },
+ "iam": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 100,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 100
+  },
+  "new_last_run": 100
+ },
+ "ipdraughts": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 4,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 4
+  },
+  "new_last_run": 4
+ },
+ "ipfray": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 200,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 200
+  },
+  "new_last_run": 200
+ },
+ "ipkat": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 150,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 96
+  },
+  "new_last_run": 96
+ },
+ "ipwatchdog": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 1,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": "ReadTimeout: The read operation timed out",
+  "last_status": null,
+  "new_by_day": {}
+ },
+ "jdsupra-ip": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 1,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": "AttributeError: object has no attribute 'version'",
+  "last_status": null,
+  "new_by_day": {}
+ },
+ "journalism-co-uk": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 15,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 15
+  },
+  "new_last_run": 15
+ },
+ "juve-patent": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 80,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 71
+  },
+  "new_last_run": 71
+ },
+ "kluwer-copyright": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 7,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 7
+  },
+  "new_last_run": 7
+ },
+ "kluwer-patent": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 7,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 7
+  },
+  "new_last_run": 7
+ },
+ "kluwer-trademark": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 7,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 7
+  },
+  "new_last_run": 7
+ },
+ "media-leader": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 9
+  },
+  "new_last_run": 9
+ },
+ "niemanlab": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 30,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 26
+  },
+  "new_last_run": 26
+ },
+ "ofcom": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 1,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": "robots.txt disallows this page",
+  "last_status": null,
+  "new_by_day": {}
+ },
+ "oin": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 9
+  },
+  "new_last_run": 9
+ },
+ "openuk": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 7
+  },
+  "new_last_run": 7
+ },
+ "osi": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 10
+  },
+  "new_last_run": 10
+ },
+ "patentlyo": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 10
+  },
+  "new_last_run": 10
+ },
+ "plagiarism-today": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 10
+  },
+  "new_last_run": 10
+ },
+ "podnews": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 151,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 64
+  },
+  "new_last_run": 64
+ },
+ "radiotoday": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 10
+  },
+  "new_last_run": 10
+ },
+ "reuters-institute": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 9
+  },
+  "new_last_run": 9
+ },
+ "screen-daily": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 5,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 4
+  },
+  "new_last_run": 4
+ },
+ "sfc": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 1
+  },
+  "new_last_run": 1
+ },
+ "sky-newsroom": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 100,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 51
+  },
+  "new_last_run": 51
+ },
+ "streaming-media": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 25,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 25
+  },
+  "new_last_run": 25
+ },
+ "technollama": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 8,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 8
+  },
+  "new_last_run": 8
+ },
+ "thr-business": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 10
+  },
+  "new_last_run": 10
+ },
+ "tvbeurope": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 20,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 20
+  },
+  "new_last_run": 20
+ },
+ "ukipo": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 199,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 183
+  },
+  "new_last_run": 183
+ },
+ "variety-bbc": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 7
+  },
+  "new_last_run": 7
+ },
+ "variety-business": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 10
+  },
+  "new_last_run": 10
+ },
+ "variety-global": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 200,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 190
+  },
+  "new_last_run": 190
+ },
+ "via-la": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 7
+  },
+  "new_last_run": 7
+ },
+ "vlv": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 0
+  },
+  "new_last_run": 0
+ },
+ "wipo-press": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 10,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 5
+  },
+  "new_last_run": 5
+ },
+ "wtr": {
+  "consecutive_empty": 0,
+  "consecutive_failures": 0,
+  "entries_last_run": 100,
+  "ever_had_entries": true,
+  "last_attempt_at": "2026-11-24T21:44:41Z",
+  "last_error": null,
+  "last_ok_at": "2026-11-24T21:44:41Z",
+  "last_status": 200,
+  "new_by_day": {
+   "2026-11-24": 100
+  },
+  "new_last_run": 100
+ }
+}
