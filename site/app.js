@@ -56,10 +56,11 @@ async function fetchJSON(path) {
 
 const dispTime = (it) => Date.parse(it.published_at || it.first_seen_at);
 const isNew = (it) => {
+  // First visit: everything published today counts, including the first big scan.
+  if (!S.prevVisit) return londonDay(new Date(dispTime(it))) === londonDay(new Date());
   const seen = Date.parse(it.first_seen_at);
   const bf = S.meta?.backfill_until ? Date.parse(S.meta.backfill_until) : 0;
-  if (seen <= bf) return false;
-  return S.prevVisit ? seen > S.prevVisit : londonDay(new Date(seen)) === londonDay(new Date());
+  return seen > bf && seen > S.prevVisit;
 };
 const onDesk = (it, d) => d === "both" || it.desk === d || (it.also_desks || []).includes(d);
 
