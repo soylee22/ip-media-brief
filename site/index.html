@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#F7F6F3">
+<title>IP &amp; Media Brief</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="banner hidden" id="offline">Offline. Showing the last copy.</div>
+<header class="top">
+  <div class="wrap">
+    <div class="bar">
+      <div class="brand"><div class="mono" aria-hidden="true">B</div><div class="txt"><h1 id="title">IP &amp; Media Brief</h1><a class="updated" id="updated" href="#sources"><span class="dot" id="hdot"></span><span id="utext">Loading</span></a></div></div>
+      <button class="iconbtn" id="theme" aria-label="Switch theme: system, dark, light" title="Theme">◐</button>
+    </div>
+    <nav class="views" aria-label="Views">
+      <button data-view="today" aria-current="page">Today</button>
+      <button data-view="saved">Saved <span id="savedCount"></span></button>
+      <button data-view="sources">Sources</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="v-today">
+    <div class="controls">
+      <div class="seg" role="group" aria-label="Desk">
+        <button data-desk="ip" aria-pressed="false">IP</button>
+        <button data-desk="media" aria-pressed="false">Media</button>
+        <button data-desk="both" aria-pressed="false">Both</button>
+      </div>
+      <label class="search"><span aria-hidden="true">⌕</span><input id="q" type="search" placeholder="Search headlines" aria-label="Search headlines" autocomplete="off"></label>
+      <div class="toggles">
+        <button class="pill" id="picksOnly" aria-pressed="false">Picks only</button>
+        <button class="pill" id="sort" aria-pressed="false">Newest</button>
+      </div>
+    </div>
+    <div class="chips" id="chips" aria-label="Topics"></div>
+    <section class="brief" id="brief" aria-label="Briefing">
+      <div class="since" id="since"></div>
+      <h2>Top picks</h2>
+      <ul class="picks" id="picks"></ul>
+    </section>
+    <div id="feed"><p class="loading">Loading the latest news</p></div>
+    <div id="older" class="older hidden"></div>
+    <div class="sentinel" id="sentinel"></div>
+  </section>
+
+  <section id="v-saved" class="hidden">
+    <div class="tools">
+      <button class="pill" id="exportSaved">Export saved</button>
+      <label class="pill" for="importFile" style="cursor:pointer">Import saved</label>
+      <input type="file" id="importFile" accept="application/json" class="hidden">
+    </div>
+    <div id="savedList"></div>
+  </section>
+
+  <section id="v-sources" class="hidden">
+    <p class="note" id="healthLine"></p>
+    <div id="sourcesTable"></div>
+  </section>
+
+  <footer id="footer"></footer>
+</main>
+<script src="app.js" type="module"></script>
+</body>
+</html>

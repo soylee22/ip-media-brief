@@ -1,0 +1,215 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "item.schema.json",
+  "title": "Brief item",
+  "description": "One line of data/items/YYYY-MM.jsonl. The month is the UTC month of first_seen_at.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "url",
+    "source_id",
+    "source_name",
+    "desk",
+    "title",
+    "abstract",
+    "published_at",
+    "first_seen_at",
+    "revision",
+    "fingerprint",
+    "topics",
+    "jurisdictions",
+    "score",
+    "pick",
+    "paywalled"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{16}$",
+      "description": "First 16 hex characters of sha256(canonical url)."
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Canonical URL. SPEC 9.1."
+    },
+    "url_original": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "URL as the feed gave it, when it differs from url."
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "source_name": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Publisher name. Set for gnews items from the <source> element."
+    },
+    "via": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "Google News"
+      ]
+    },
+    "desk": {
+      "type": "string",
+      "enum": [
+        "ip",
+        "media"
+      ]
+    },
+    "also_desks": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "ip",
+          "media"
+        ]
+      },
+      "default": []
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 300
+    },
+    "abstract": {
+      "type": "string",
+      "maxLength": 240
+    },
+    "published_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "first_seen_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_seen_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "fingerprint": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{16}$"
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 4
+    },
+    "jurisdictions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "uk",
+          "eu",
+          "us",
+          "cn",
+          "global"
+        ]
+      }
+    },
+    "score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "pick": {
+      "type": "boolean"
+    },
+    "matched_terms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 8,
+      "default": []
+    },
+    "cluster_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9a-f]{16}$",
+      "description": "Id of the cluster leader. The build step lists other members under the leader."
+    },
+    "paywalled": {
+      "type": "boolean"
+    },
+    "summary": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 700
+    },
+    "summary_provider": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "gemini",
+        "ollama"
+      ]
+    },
+    "summary_model": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "summary_basis": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "article",
+        "feed"
+      ]
+    },
+    "summarised_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "summary_attempts": {
+      "type": "integer",
+      "minimum": 0,
+      "default": 0
+    }
+  }
+}

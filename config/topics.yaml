@@ -1,0 +1,127 @@
+# Topic rules, relevance weights and noise filters.
+# All patterns are Python regular expressions, matched against the title and
+# the abstract. Matching ignores case by default. A pattern that starts with
+# the prefix cs: matches with case. Use cs: for acronyms such as US or SEP,
+# because \bUS\b without case also matches the word "us".
+# Use single quotes. Use \b for word edges.
+# SPEC section 10 defines how the classifier applies these rules.
+
+desks:
+  ip:
+    label: "IP"
+    accent: "#3F51B5"
+    topics:
+      patents-seps:
+        label: "Patents, SEPs and pools"
+        patterns: ['\bpatent\w*', 'cs:\bSEPs?\b', '\bFRAND\b', 'standard[- ]essential', '\bpatent pool', 'cs:\bUPC\b', 'Unified Patent Court', 'cs:\bEPO\b', '\binfring\w*', '\bclaim construction', '\bsupplementary protection']
+      copyright-ai:
+        label: "Copyright and AI"
+        patterns: ['\bcopyright\w*', 'text and data mining', 'cs:\bTDM\b', '\bAI training', 'generative AI', '\bfair (use|dealing)\b', '\bDMCA\b', '\bcollective (licen[cs]\w*|management)', '\bperformers?.? rights', '\bpiracy\b']
+      trade-marks:
+        label: "Brands and designs"
+        patterns: ['\btrade ?marks?\b', 'cs:\bTMs?\b', '\bpassing off\b', '\bbrand\w*\b', '\bdesign rights?\b', '\bregistered designs?\b', '\bcounterfeit\w*', '\bEUIPO\b', '\bgeographical indications?\b']
+      open-source:
+        label: "Open source and software"
+        patterns: ['\bopen[- ]source\b', '\bGPL\b', '\bAGPL\b', '\bApache (2\.0|licen[cs]e)', '\bMIT licen[cs]e', 'cs:\bSBOM\b', '\bsoftware licen[cs]\w*', 'cs:\bOSI\b', '\bcopyleft\b', '\bcontributor (licen[cs]e|agreement)']
+      licensing:
+        label: "Licensing and deals"
+        patterns: ['\blicen[cs](e|ing|ee|or)\b', '\broyalt\w*', '\bassignment\b', '\btechnology transfer', '\bR&D (collaboration|agreement)', '\bjoint venture']
+      cases:
+        label: "Courts and decisions"
+        patterns: ['\b(EWHC|EWCA|UKSC|IPEC)\b', '\bjudgment\b', '\bCourt of Appeal\b', '\bSupreme Court\b', '\bPatents Court\b', '\bCJEU\b', '\bruling\b', '\[\d{4}\] (EWHC|EWCA|UKSC)']
+      policy:
+        label: "Offices and policy"
+        patterns: ['cs:\b(UKIPO|USPTO|WIPO|CNIPA)\b', 'Intellectual Property Office', '\bconsultation\b', '\bregulation\b', '\bdirective\b', '\bofficial fees\b']
+      media-ip:
+        label: "Media and content rights"
+        patterns: ['\bbroadcast\w*', '\bstreaming\b', '\bformat rights', '\bsports? rights', '\bmusic licen[cs]\w*', '\barchive\w*', '\bBBC\b', '\bNetflix\b', '\bYouTube\b', '\bcontent ID\b']
+
+  media:
+    label: "Media"
+    accent: "#00796B"
+    topics:
+      bbc:
+        label: "The BBC"
+        patterns: ['\bBBC\b', '\biPlayer\b', '\bBBC Studios\b', '\bBBC Sounds\b', '\bCBeebies\b', '\blicence fee\b', '\bcharter review\b', '\bRoyal Charter\b', '\bDirector[- ]General\b']
+      psb-uk:
+        label: "UK broadcasters"
+        patterns: ['\bITV\w*', '\bChannel 4\b', '\bChannel 5\b', '\bS4C\b', '\bSky\b', '\bUKTV\b', 'cs:\bSTV\b', '\bpublic service (broadcast\w*|media)\b', 'cs:\bPSBs?\b', '\bFreeview\b', '\bFreely\b', '\bEBU\b']
+      streaming:
+        label: "Streaming and platforms"
+        patterns: ['\bNetflix\b', '\bAmazon\b', '\bPrime Video\b', '\bDisney\+?', '\bYouTube\b', '\bApple TV', '\bParamount\b', '\bWarner Bros\.? Discovery\b', 'cs:\bSVOD\b', 'cs:\bAVOD\b', 'cs:\bFAST channels?\b', '\bstreamers?\b']
+      regulation:
+        label: "Regulation and policy"
+        patterns: ['\bOfcom\b', 'cs:\bDCMS\b', 'cs:\bCMA\b', '\bMedia Act\b', '\bOnline Safety\b', '\bcommittee\b', '\bconsultation\b', '\bregulat\w*', '\bparliament\w*', '\bminister\b', '\bimpartiality\b']
+      tech:
+        label: "Broadcast technology"
+        patterns: ['\bR&D\b', '\bcodecs?\b', '\b(HEVC|VVC|AV1|AVC|LCEVC)\b', '\bDVB\b', '\bHbbTV\b', '\b5G broadcast', 'cs:\bATSC\b', 'cs:\bDTT\b', '\bIP delivery\b', '\bcloud production', 'cs:\bSMPTE\b', '\bstandards? bod(y|ies)\b', '\bAI tools?\b', '\bmetadata\b', '\baccessibility\b', '\bsubtitl\w*', '\baudio description']
+      business:
+        label: "Deals, money and production"
+        patterns: ['\bacqui\w*', '\bmerger\b', '\btakeover\b', '\b(annual|interim|half[- ]year|full[- ]year|quarterly|Q[1-4]) results\b', '\brevenue\w*', '\bprofit\w*', '\bad(vertising)? (market|revenue)', '\bcommission\w*', '\bdistribut\w*', '\bproduction (company|sector)', '\bindie\w*', '\bco-production', '\bdeal\b', '\bjob cuts?\b', '\bredundanc\w*', '\blayoffs?\b']
+      audio:
+        label: "Radio, audio and podcasts"
+        patterns: ['\bradio\b', '\bpodcast\w*', '\baudio\b', 'cs:\bDAB\b', '\bRAJAR\b', '\bSpotify\b', '\bGlobal Media\b', '\bBauer\b']
+      news-industry:
+        label: "News business"
+        patterns: ['\bjournalis\w*', '\bnewsroom\w*', '\bnewspaper\w*', '\bpublisher\w*', '\bpaywall\w*', '\blocal news\b', '\bpress (freedom|regulation)', 'cs:\bIPSO\b', '\bsubscri\w*']
+
+# Cross-desk rule. An item also appears on the other desk when its title
+# matches a pattern of one of these topics of the other desk.
+cross_desk_topics:
+  ip: [patents-seps, copyright-ai, trade-marks, open-source]
+  media: [bbc, psb-uk, streaming, regulation]
+
+# Jurisdiction tags. A source sets defaults. These rules add tags.
+jurisdictions:
+  uk: ['cs:\bUK\b', '\bUnited Kingdom\b', '\bBritish\b', '\bEngland\b', '\bScotland\b', '\bUKIPO\b', '\bEWHC\b', '\bEWCA\b', '\bUKSC\b', '\bOfcom\b']
+  eu: ['cs:\bEU\b', '\bEuropean\b', '\bCJEU\b', '\bEUIPO\b', 'cs:\bEPO\b', 'cs:\bUPC\b', '\bGermany\b', '\bFrance\b', '\bMunich\b', '\bParis\b']
+  us: ['cs:\bUS\b', 'cs:\bU\.S\.', '\bUSPTO\b', '\bFederal Circuit\b', 'cs:\bCAFC\b', 'cs:\bITC\b', '\bCalifornia\b', '\bTexas\b', '\bDelaware\b']
+  cn: ['\bChina\b', '\bChinese\b', '\bCNIPA\b', '\bBeijing\b', '\bShanghai\b', '\bShenzhen\b', 'cs:\bSPC\b']
+
+# Relevance terms. Weight is added once per term when the title matches.
+# Half the weight is added when only the abstract matches.
+# These terms reflect broadcasting technology, content and brand work.
+relevance:
+  terms:
+    '\bBBC\b': 15
+    '\bBBC (Studios|R&D|Research)': 10
+    '\bpublic service (broadcast\w*|media)\b': 8
+    '\bOfcom\b': 8
+    '\blicence fee\b': 8
+    '\bcharter review\b': 10
+    'cs:\bSEPs?\b': 12
+    'standard[- ]essential': 12
+    '\bFRAND\b': 12
+    '\bpatent pool': 10
+    '\b(HEVC|VVC|AV1|codec\w*)\b': 10
+    '\b(DVB|HbbTV|5G broadcast)\b': 8
+    '\bopen[- ]source\b': 10
+    '\b(GPL|AGPL|Apache licen[cs]e|MIT licen[cs]e)\b': 8
+    'text and data mining': 10
+    'cs:\bTDM\b': 10
+    '\bAI training\b|generative AI': 8
+    '\bcopyright\b': 6
+    '\bformat rights?\b': 8
+    '\barchive\w*': 5
+    '\bcollective (licen[cs]\w*|management)': 6
+    '\btrade ?marks?\b': 5
+    '\bpassing off\b': 6
+    '\bUnified Patent Court\b': 6
+    'cs:\bUPC\b': 6
+    '\b(UKIPO|Intellectual Property Office)\b': 6
+    '\bstreaming\b': 4
+    '\b(ITV|Channel 4|Sky|Netflix|YouTube)\b': 4
+  source_priority_points: {1: 20, 2: 10, 3: 0}
+  coverage_points_per_extra_source: 5
+  coverage_points_max: 15
+  score_cap: 100
+  pick_threshold: 35   # 45 marked 2% of a 970-item test run; 35 marks about 11%
+
+# Global noise rules. A match in the title drops the item from both desks.
+noise:
+  title_exclude:
+    - '(?i)\b(trailer|teaser|first[- ]look (images?|photos?)|red carpet|box office|recap)\b'
+    - '(?i)\bjoins? (the )?cast\b|\bcast(s|ing)? (in|as|for)\b'
+    - '(?i)\breview:\s|\breview\s\W'
+    - '(?i)\b(horoscope|quiz|crossword|competition winners?)\b'
+    - '(?i)\bwebinar\b|\bsponsored\b|\bpromoted\b'

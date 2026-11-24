@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "site-meta.schema.json",
+  "title": "Site meta.json (SPEC 13.2)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["generated_at", "title", "subtitle", "default_desk", "desks", "days", "months", "sources", "health", "summary_label", "licence_notes", "version", "backfill_until"],
+  "properties": {
+    "generated_at": {"type": "string"},
+    "title": {"type": "string"},
+    "subtitle": {"type": "string"},
+    "default_desk": {"enum": ["ip", "media", "both"]},
+    "desks": {"type": "object"},
+    "days": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["date", "ip", "media", "picks"],
+      "properties": {"date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"}, "ip": {"type": "integer"}, "media": {"type": "integer"}, "picks": {"type": "integer"}}}},
+    "months": {"type": "array", "items": {"type": "string", "pattern": "^\\d{4}-\\d{2}$"}},
+    "sources": {"type": "array", "items": {"type": "object", "required": ["id", "name", "desk", "priority", "status", "new_7d"],
+      "properties": {"status": {"enum": ["ok", "empty", "failing", "disabled"]}}}},
+    "health": {"type": "object", "required": ["status", "ok", "failing", "empty"], "properties": {"status": {"enum": ["green", "amber", "red"]}}},
+    "summary_label": {"type": "string"},
+    "licence_notes": {"type": "array", "items": {"type": "string"}},
+    "version": {"type": "string"},
+    "backfill_until": {"type": ["string", "null"]}
+  }
+}

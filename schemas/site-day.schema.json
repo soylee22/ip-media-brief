@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "site-day.schema.json",
+  "title": "Site day file (SPEC 13.3)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "desk", "also_desks", "title", "url", "source_name", "publisher", "via", "published_at", "first_seen_at", "abstract", "summary", "summary_model", "summary_basis", "topics", "jurisdictions", "score", "pick", "paywalled", "revision", "updated_seen_at", "also"],
+    "properties": {
+      "id": {"type": "string", "pattern": "^[0-9a-f]{16}$"},
+      "desk": {"enum": ["ip", "media"]},
+      "also_desks": {"type": "array"},
+      "title": {"type": "string"},
+      "url": {"type": "string"},
+      "source_name": {"type": "string"},
+      "publisher": {"type": ["string", "null"]},
+      "via": {"type": ["string", "null"]},
+      "published_at": {"type": ["string", "null"]},
+      "first_seen_at": {"type": "string"},
+      "abstract": {"type": "string"},
+      "summary": {"type": ["string", "null"]},
+      "summary_model": {"type": ["string", "null"]},
+      "summary_basis": {"type": ["string", "null"]},
+      "topics": {"type": "array"},
+      "jurisdictions": {"type": "array"},
+      "score": {"type": "integer"},
+      "pick": {"type": "boolean"},
+      "paywalled": {"type": "boolean"},
+      "revision": {"type": "integer"},
+      "updated_seen_at": {"type": ["string", "null"]},
+      "also": {"type": "array", "items": {"type": "object", "required": ["source_name", "url"]}}
+    }
+  }
+}

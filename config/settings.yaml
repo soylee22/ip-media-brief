@@ -1,0 +1,62 @@
+# Run settings for the IP & Media Brief. SPEC section 6 defines every key.
+
+site:
+  title: "IP & Media Brief"
+  subtitle: "Intellectual property and broadcasting news, collected every three hours"
+  # base_path must equal "/<repository name>/". Change it if the repository name changes.
+  base_path: "/ip-media-brief/"
+  timezone: "Europe/London"
+  days_on_site: 60          # day files the site can load
+  archive_months: 12        # monthly search files the site can load
+  noindex: true             # robots.txt disallows all, and every page carries noindex
+  default_desk: "ip"
+
+collect:
+  user_agent: "ip-media-brief/1.0 (personal feed reader)"
+  timeout_seconds: 20
+  retries: 2                # extra attempts after the first, for timeouts and 5xx only
+  per_host_delay_seconds: 2
+  max_workers: 8            # parallel hosts. One host never gets two requests at once.
+  max_item_age_days: 14     # normal runs drop entries older than this
+  backfill_days: 90         # default window for a backfill run
+  max_pages_normal: 3       # gap filling. Stop at the first page with a known item.
+  max_pages_backfill: 20
+  abstract_max_chars: 240
+  respect_robots_txt: true  # for html_list, embedded_json and article fetches
+
+cluster:
+  title_similarity: 88      # rapidfuzz token_set_ratio threshold
+  window_days: 3
+
+summarise:
+  providers: ["gemini", "ollama"]   # tried in this order. [] turns AI summaries off.
+  max_item_age_days: 7
+  min_source_chars: 400
+  max_input_words: 1200
+  min_words: 25
+  max_words: 90
+  entity_overlap_min: 0.7
+  gemini:
+    endpoint: "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+    model: "gemini-3.5-flash-lite"            # listed on Google's pricing page, 24 Nov 2026
+    fallback_models: ["gemini-3.1-flash-lite"]
+    daily_call_cap: 400
+    per_run_cap: 120
+    min_seconds_between_calls: 5
+    temperature: 0.2
+    max_output_tokens: 400
+    thinking_config: {thinkingLevel: "minimal"}   # remove this key if the API rejects it
+  ollama:
+    version: "v0.40.17"       # published 10 Nov 2026, the newest release at least 14 days old on 24 Nov 2026
+    model: "qwen3:1.7b"       # Apache-2.0 licence
+    models_dir: "~/.ollama-models"
+    per_run_cap: 15
+    per_item_timeout_seconds: 120
+    max_run_minutes: 25
+    num_ctx: 4096
+    temperature: 0.2
+
+health:
+  failures_before_issue: 3
+  red_if_failing_share_above: 0.4
+  issue_label: "source-health"

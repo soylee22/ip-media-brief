@@ -1,0 +1,1065 @@
+# Source registry for the IP & Media Brief.
+# Every enabled source returned items on 24 November 2026 from a UK connection.
+# GitHub runners use different IP addresses. Run the "Probe sources" workflow
+# after setup and disable any source that fails from the runner.
+#
+# Field reference: schemas/sources.schema.json and SPEC section 7.
+# adapter:   rss | gnews | govuk_search | fcl | html_list | embedded_json
+# desk:      ip | media
+# priority:  1 = core, 2 = standard, 3 = background
+# paging:    none | wordpress | blogger | fcl | govuk
+# paywalled: true means the article body is behind a paywall. Headline only.
+# fetch_article: true allows one GET of the article page to build the AI summary.
+
+defaults:
+  enabled: true
+  priority: 2
+  paging: none
+  paywalled: false
+  fetch_article: true
+  max_new_per_run: 30
+  include: []
+  exclude: []
+
+sources:
+
+  # ---------------------------------------------------------------- IP desk
+
+  - id: ipkat
+    name: IPKat
+    desk: ip
+    adapter: rss
+    url: https://ipkitten.blogspot.com/feeds/posts/default
+    homepage: https://ipkitten.blogspot.com/
+    priority: 1
+    paging: blogger
+    jurisdictions: [uk, eu]
+    verified: {date: 2026-11-24, status: 200, items: 20, note: "max-results=150 returned 150 items back to 2026-07-07"}
+
+  - id: kluwer-patent
+    name: Kluwer Patent Blog
+    desk: ip
+    adapter: rss
+    url: https://legalblogs.wolterskluwer.com/patent-blog/rss.xml
+    homepage: https://legalblogs.wolterskluwer.com/patent-blog/
+    priority: 1
+    jurisdictions: [eu]
+    verified: {date: 2026-11-24, status: 200, items: 7, note: "old patentblog.kluweriplaw.com feed now 404"}
+
+  - id: kluwer-copyright
+    name: Kluwer Copyright Blog
+    desk: ip
+    adapter: rss
+    url: https://legalblogs.wolterskluwer.com/copyright-blog/rss.xml
+    homepage: https://legalblogs.wolterskluwer.com/copyright-blog/
+    priority: 1
+    jurisdictions: [eu]
+    verified: {date: 2026-11-24, status: 200, items: 7}
+
+  - id: kluwer-trademark
+    name: Kluwer Trademark Blog
+    desk: ip
+    adapter: rss
+    url: https://legalblogs.wolterskluwer.com/trademark-blog/rss.xml
+    homepage: https://legalblogs.wolterskluwer.com/trademark-blog/
+    priority: 2
+    jurisdictions: [eu]
+    verified: {date: 2026-11-24, status: 200, items: 7}
+
+  - id: juve-patent
+    name: JUVE Patent
+    desk: ip
+    adapter: rss
+    url: https://www.juve-patent.com/feed/
+    homepage: https://www.juve-patent.com/
+    priority: 1
+    paging: wordpress
+    jurisdictions: [eu, uk]
+    verified: {date: 2026-11-24, status: 200, items: 10, note: "?paged=5 returned items from 2026-09-24"}
+
+  - id: ipfray
+    name: ip fray
+    desk: ip
+    adapter: rss
+    url: https://ipfray.com/feed/
+    homepage: https://ipfray.com/
+    priority: 1
+    paging: wordpress
+    jurisdictions: [global]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: ukipo
+    name: UK Intellectual Property Office
+    desk: ip
+    adapter: govuk_search
+    url: https://www.gov.uk/api/search.json
+    params: {filter_organisations: intellectual-property-office}
+    homepage: https://www.gov.uk/government/organisations/intellectual-property-office
+    priority: 1
+    paging: govuk
+    jurisdictions: [uk]
+    licence_note: "Contains public sector information licensed under the Open Government Licence v3.0."
+    verified: {date: 2026-11-24, status: 200, items: 2722, note: "search API total. Atom alternative https://www.gov.uk/government/organisations/intellectual-property-office.atom"}
+
+  - id: dsit-ip
+    name: DSIT (IP and AI items)
+    desk: ip
+    adapter: govuk_search
+    url: https://www.gov.uk/api/search.json
+    params: {filter_organisations: department-for-science-innovation-and-technology}
+    homepage: https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology
+    priority: 2
+    paging: govuk
+    jurisdictions: [uk]
+    include: ['\b(copyright|intellectual property|text and data mining|creative (industr|content|sector)|licen[cs]ing)\b']
+    licence_note: "Contains public sector information licensed under the Open Government Licence v3.0."
+    verified: {date: 2026-11-24, status: 200, items: 20}
+
+  - id: fcl-patents-court
+    name: Find Case Law, Patents Court
+    desk: ip
+    adapter: fcl
+    url: https://caselaw.nationalarchives.gov.uk/atom.xml?court=ewhc/pat
+    homepage: https://caselaw.nationalarchives.gov.uk/
+    priority: 1
+    paging: fcl
+    fetch_article: false
+    jurisdictions: [uk]
+    licence_note: "Contains public sector information licensed under the Open Justice Licence v1.0."
+    verified: {date: 2026-11-24, status: 200, items: 50, note: "&page=2 returned older judgments"}
+
+  - id: fcl-ipec
+    name: Find Case Law, IPEC
+    desk: ip
+    adapter: fcl
+    url: https://caselaw.nationalarchives.gov.uk/atom.xml?court=ewhc/ipec
+    homepage: https://caselaw.nationalarchives.gov.uk/
+    priority: 1
+    paging: fcl
+    fetch_article: false
+    jurisdictions: [uk]
+    licence_note: "Contains public sector information licensed under the Open Justice Licence v1.0."
+    verified: {date: 2026-11-24, status: 200, items: 50}
+
+  - id: fcl-copyright
+    name: Find Case Law, copyright search
+    desk: ip
+    adapter: fcl
+    url: https://caselaw.nationalarchives.gov.uk/atom.xml?query=copyright
+    homepage: https://caselaw.nationalarchives.gov.uk/
+    priority: 2
+    paging: fcl
+    fetch_article: false
+    jurisdictions: [uk]
+    licence_note: "Contains public sector information licensed under the Open Justice Licence v1.0."
+    verified: {date: 2026-11-24, status: 200, items: 50}
+
+  - id: fcl-trade-marks
+    name: Find Case Law, trade mark search
+    desk: ip
+    adapter: fcl
+    url: https://caselaw.nationalarchives.gov.uk/atom.xml?query=%22trade+mark%22
+    homepage: https://caselaw.nationalarchives.gov.uk/
+    priority: 2
+    paging: fcl
+    fetch_article: false
+    jurisdictions: [uk]
+    licence_note: "Contains public sector information licensed under the Open Justice Licence v1.0."
+    verified: {date: 2026-11-24, status: 200, items: 50}
+
+  - id: fcl-patent-search
+    name: Find Case Law, patent search
+    desk: ip
+    adapter: fcl
+    url: https://caselaw.nationalarchives.gov.uk/atom.xml?query=patent
+    homepage: https://caselaw.nationalarchives.gov.uk/
+    priority: 3
+    paging: fcl
+    fetch_article: false
+    jurisdictions: [uk]
+    licence_note: "Contains public sector information licensed under the Open Justice Licence v1.0."
+    verified: {date: 2026-11-24, status: 200, items: 50, note: "overlaps the Patents Court feed. Dedupe by URL"}
+
+  - id: access-advance
+    name: Access Advance
+    desk: ip
+    adapter: rss
+    url: https://accessadvance.com/feed/
+    homepage: https://accessadvance.com/
+    priority: 1
+    jurisdictions: [global]
+    topics_hint: [patents-seps]
+    verified: {date: 2026-11-24, status: 200, items: 10, note: "HEVC, VVC and video distribution patent pools"}
+
+  - id: via-la
+    name: Via LA
+    desk: ip
+    adapter: rss
+    url: https://via-la.com/feed/
+    homepage: https://via-la.com/
+    priority: 2
+    jurisdictions: [global]
+    topics_hint: [patents-seps]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: avanci
+    name: Avanci
+    desk: ip
+    adapter: rss
+    url: https://www.avanci.com/feed/
+    homepage: https://www.avanci.com/
+    priority: 2
+    jurisdictions: [global]
+    topics_hint: [patents-seps]
+    verified: {date: 2026-11-24, status: 200, items: 5}
+
+  - id: gn-sep-frand
+    name: SEP and FRAND news (Google News)
+    desk: ip
+    adapter: gnews
+    query: 'FRAND OR "standard essential patents"'
+    priority: 1
+    jurisdictions: [global]
+    topics_hint: [patents-seps]
+    verified: {date: 2026-11-24, status: 200, items: 15, note: "publishers included Bristows, JUVE Patent, IAM"}
+
+  - id: gn-copyright-ai-uk
+    name: UK copyright and AI (Google News)
+    desk: ip
+    adapter: gnews
+    query: 'copyright "artificial intelligence" UK'
+    priority: 1
+    jurisdictions: [uk]
+    topics_hint: [copyright-ai]
+    verified: {date: 2026-11-24, status: 200, items: 19}
+
+  - id: openuk
+    name: OpenUK
+    desk: ip
+    adapter: rss
+    url: https://openuk.uk/feed/
+    homepage: https://openuk.uk/
+    priority: 2
+    jurisdictions: [uk]
+    topics_hint: [open-source]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: osi
+    name: Open Source Initiative
+    desk: ip
+    adapter: rss
+    url: https://opensource.org/feed
+    homepage: https://opensource.org/
+    priority: 2
+    jurisdictions: [global]
+    topics_hint: [open-source]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: sfc
+    name: Software Freedom Conservancy
+    desk: ip
+    adapter: rss
+    url: https://sfconservancy.org/feeds/blog/
+    homepage: https://sfconservancy.org/
+    priority: 2
+    jurisdictions: [global]
+    topics_hint: [open-source]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: oin
+    name: Open Invention Network
+    desk: ip
+    adapter: rss
+    url: https://openinventionnetwork.com/feed/
+    homepage: https://openinventionnetwork.com/
+    priority: 3
+    jurisdictions: [global]
+    topics_hint: [open-source, patents-seps]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: technollama
+    name: TechnoLlama
+    desk: ip
+    adapter: rss
+    url: https://www.technollama.co.uk/feed
+    homepage: https://www.technollama.co.uk/
+    priority: 2
+    jurisdictions: [uk, global]
+    topics_hint: [copyright-ai]
+    verified: {date: 2026-11-24, status: 200, items: 8}
+
+  - id: ipdraughts
+    name: IP Draughts
+    desk: ip
+    adapter: rss
+    url: https://ipdraughts.wordpress.com/feed/
+    homepage: https://ipdraughts.wordpress.com/
+    priority: 2
+    jurisdictions: [uk]
+    topics_hint: [licensing]
+    verified: {date: 2026-11-24, status: 200, items: 4, note: "IP licensing and contract drafting"}
+
+  - id: guardian-ip
+    name: The Guardian, intellectual property
+    desk: ip
+    adapter: rss
+    url: https://www.theguardian.com/law/intellectual-property/rss
+    homepage: https://www.theguardian.com/law/intellectual-property
+    priority: 2
+    jurisdictions: [uk]
+    verified: {date: 2026-11-24, status: 200, items: 20, note: "403 with a browser user agent, 200 with the honest one"}
+
+  - id: iam
+    name: IAM
+    desk: ip
+    adapter: rss
+    url: https://www.iam-media.com/rss
+    homepage: https://www.iam-media.com/
+    priority: 2
+    paywalled: true
+    fetch_article: false
+    max_new_per_run: 20
+    jurisdictions: [global]
+    verified: {date: 2026-11-24, status: 200, items: 100}
+
+  - id: wtr
+    name: World Trademark Review
+    desk: ip
+    adapter: rss
+    url: https://www.worldtrademarkreview.com/rss
+    homepage: https://www.worldtrademarkreview.com/
+    priority: 2
+    paywalled: true
+    fetch_article: false
+    max_new_per_run: 20
+    jurisdictions: [global]
+    topics_hint: [trade-marks]
+    verified: {date: 2026-11-24, status: 200, items: 100}
+
+  - id: gn-wipr
+    name: World IP Review (Google News)
+    desk: ip
+    adapter: gnews
+    query: 'site:worldipreview.com'
+    priority: 2
+    paywalled: true
+    fetch_article: false
+    jurisdictions: [global]
+    verified: {date: 2026-11-24, status: 200, items: 14, note: "site has no RSS"}
+
+  - id: gn-managingip
+    name: Managing IP (Google News)
+    desk: ip
+    adapter: gnews
+    query: 'site:managingip.com'
+    priority: 2
+    paywalled: true
+    fetch_article: false
+    jurisdictions: [global]
+    verified: {date: 2026-11-24, status: 200, items: 10, note: "own RSS returns no items"}
+
+  - id: gn-upc
+    name: Unified Patent Court (Google News)
+    desk: ip
+    adapter: gnews
+    query: '"Unified Patent Court"'
+    priority: 2
+    jurisdictions: [eu]
+    topics_hint: [patents-seps]
+    verified: {date: 2026-11-24, status: 200, items: 7, note: "UPC site returns 403"}
+
+  - id: gn-epo
+    name: European Patent Office (Google News)
+    desk: ip
+    adapter: gnews
+    query: '"European Patent Office"'
+    priority: 2
+    jurisdictions: [eu]
+    verified: {date: 2026-11-24, status: 200, items: 15, note: "no EPO news feed found"}
+
+  - id: gn-euipo
+    name: EUIPO (Google News)
+    desk: ip
+    adapter: gnews
+    query: 'EUIPO'
+    priority: 3
+    jurisdictions: [eu]
+    exclude: ['(?i)webinar', '(?i)security alert']
+    verified: {date: 2026-11-24, status: 200, items: 58, note: "EUIPO site returns 403"}
+
+  - id: gn-ukipo-commentary
+    name: UK IPO commentary (Google News)
+    desk: ip
+    adapter: gnews
+    query: '"Intellectual Property Office" UK'
+    priority: 3
+    jurisdictions: [uk]
+    verified: {date: 2026-11-24, status: 200, items: 23, note: "law-firm commentary on UKIPO changes"}
+
+  - id: wipo-press
+    name: WIPO press releases
+    desk: ip
+    adapter: rss
+    url: https://www.wipo.int/pressroom/en/rss.xml
+    homepage: https://www.wipo.int/pressroom/en/
+    priority: 3
+    jurisdictions: [global]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: ipwatchdog
+    name: IPWatchdog
+    desk: ip
+    adapter: rss
+    url: https://ipwatchdog.com/feed/
+    homepage: https://ipwatchdog.com/
+    priority: 2
+    paging: wordpress
+    jurisdictions: [us]
+    verified: {date: 2026-11-24, status: 200, items: 15}
+
+  - id: patentlyo
+    name: Patently-O
+    desk: ip
+    adapter: rss
+    url: https://patentlyo.com/feed
+    homepage: https://patentlyo.com/
+    priority: 3
+    jurisdictions: [us]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: eff
+    name: EFF Deeplinks
+    desk: ip
+    adapter: rss
+    url: https://www.eff.org/rss/updates.xml
+    homepage: https://www.eff.org/deeplinks
+    priority: 3
+    jurisdictions: [us, global]
+    include: ['(?i)\b(copyright|patent|DMCA|fair use|licen[cs]|open source|AI training|trade ?mark)\b']
+    verified: {date: 2026-11-24, status: 200, items: 50}
+
+  - id: creative-commons
+    name: Creative Commons blog
+    desk: ip
+    adapter: rss
+    url: https://creativecommons.org/feed/
+    homepage: https://creativecommons.org/blog/
+    priority: 3
+    jurisdictions: [global]
+    topics_hint: [copyright-ai, open-source]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: jdsupra-ip
+    name: JD Supra, intellectual property
+    desk: ip
+    adapter: rss
+    url: https://www.jdsupra.com/resources/syndication/docsRSSfeed.aspx?ftype=IntellectualProperty
+    homepage: https://www.jdsupra.com/
+    priority: 3
+    max_new_per_run: 15
+    jurisdictions: [us]
+    include: ['(?i)\b(patent\w*|trade ?marks?|copyright\w*|intellectual property|IP|licen[cs]\w*|trade secrets?|infring\w*|brand\w*|design rights?|open[- ]source)\b']
+    verified: {date: 2026-11-24, status: 200, items: 50, note: "mostly US law-firm alerts. Include filter added after a live test showed non-IP items"}
+
+  - id: plagiarism-today
+    name: Plagiarism Today
+    desk: ip
+    adapter: rss
+    url: https://www.plagiarismtoday.com/feed/
+    homepage: https://www.plagiarismtoday.com/
+    priority: 3
+    jurisdictions: [us, global]
+    topics_hint: [copyright-ai]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: copyright-alliance
+    name: Copyright Alliance
+    desk: ip
+    adapter: rss
+    url: https://copyrightalliance.org/feed/
+    homepage: https://copyrightalliance.org/
+    priority: 3
+    jurisdictions: [us]
+    topics_hint: [copyright-ai]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: chinaipr
+    name: China IPR
+    desk: ip
+    adapter: rss
+    url: https://chinaipr.com/feed/
+    homepage: https://chinaipr.com/
+    priority: 3
+    jurisdictions: [cn]
+    verified: {date: 2026-11-24, status: 200, items: 7}
+
+  # ------------------------------------------------------------- Media desk
+
+  - id: gn-bbc-mediacentre
+    name: BBC Media Centre (Google News)
+    desk: media
+    adapter: gnews
+    query: 'site:bbc.co.uk/mediacentre'
+    priority: 1
+    topics_hint: [bbc]
+    exclude: ['(?i)\b(what.s on|christmas \d{4} on bbc|religious programming|schedule)\b']
+    verified: {date: 2026-11-24, status: 200, items: 100, note: "Media Centre pages render with JavaScript and have no RSS"}
+
+  - id: gn-bbc-rd
+    name: BBC R&D (Google News)
+    desk: media
+    adapter: gnews
+    query: '"BBC R&D" OR "BBC Research & Development"'
+    priority: 1
+    topics_hint: [bbc, tech]
+    verified: {date: 2026-11-24, status: 200, items: 10, note: "R&D blog renders with JavaScript and has no RSS"}
+
+  - id: gn-bbc-charter
+    name: BBC Charter and licence fee (Google News)
+    desk: media
+    adapter: gnews
+    query: 'BBC "charter review" OR "licence fee"'
+    priority: 1
+    topics_hint: [bbc, regulation]
+    verified: {date: 2026-11-24, status: 200, items: 41}
+
+  - id: bbcstudios
+    name: BBC Studios news
+    desk: media
+    adapter: embedded_json
+    url: https://www.bbcstudios.com/news/
+    homepage: https://www.bbcstudios.com/news/
+    priority: 1
+    topics_hint: [bbc, business]
+    extract:
+      unescape_html: true
+      pattern: '"heading":"(?P<title>.*?)","description":"(?P<abstract>.*?)","url":"(?P<url>https://www\.bbcstudios\.com/news/[^"]+)","publishedDate":"(?P<date>[0-9T:-]+)"'
+    verified: {date: 2026-11-24, status: 200, items: 4, note: "items sit in an HTML-escaped JSON attribute"}
+
+  - id: ofcom
+    name: Ofcom news
+    desk: media
+    adapter: html_list
+    url: https://www.ofcom.org.uk/news-and-updates
+    homepage: https://www.ofcom.org.uk/news-and-updates
+    priority: 1
+    topics_hint: [regulation]
+    extract:
+      item: 'div.search-results-block div.col-sm-6'
+      link: 'a[href^="https://www.ofcom.org.uk/"]'
+      title: 'a[href^="https://www.ofcom.org.uk/"]'
+      date_regex: 'Published:\s*(\d{1,2} [A-Z][a-z]+ \d{4})'
+      date_format: '%d %B %Y'
+    verified: {date: 2026-11-24, status: 200, items: 18, note: "no RSS. Static HTML. Container found 2026-11-24"}
+
+  - id: dcms
+    name: DCMS (media items)
+    desk: media
+    adapter: govuk_search
+    url: https://www.gov.uk/api/search.json
+    params: {filter_organisations: department-for-culture-media-and-sport}
+    homepage: https://www.gov.uk/government/organisations/department-for-culture-media-and-sport
+    priority: 1
+    paging: govuk
+    topics_hint: [regulation]
+    include: ['(?i)\b(BBC|broadcast\w*|Ofcom|Channel 4|S4C|ITV|television|TV|radio|media|press|newspaper\w*|journalis\w*|licence fee|streaming|on[- ]demand|public service|creative industr\w*|film|advertis\w*|charter)\b']
+    licence_note: "Contains public sector information licensed under the Open Government Licence v3.0."
+    verified: {date: 2026-11-24, status: 200, items: 20}
+
+  - id: cma-media
+    name: CMA (media items)
+    desk: media
+    adapter: govuk_search
+    url: https://www.gov.uk/api/search.json
+    params: {filter_organisations: competition-and-markets-authority}
+    homepage: https://www.gov.uk/government/organisations/competition-and-markets-authority
+    priority: 2
+    paging: govuk
+    topics_hint: [regulation, business]
+    include: ['(?i)\b(broadcast\w*|television|TV|radio|media|streaming|advertis\w*|news|publisher\w*|Sky|ITV|BBC|Netflix|Amazon|Google|YouTube|Apple)\b']
+    licence_note: "Contains public sector information licensed under the Open Government Licence v3.0."
+    verified: {date: 2026-11-24, status: 200, items: 20}
+
+  - id: gn-parliament-media
+    name: Parliament committees on broadcasting (Google News)
+    desk: media
+    adapter: gnews
+    query: 'site:committees.parliament.uk BBC OR broadcasting'
+    priority: 2
+    topics_hint: [regulation]
+    verified: {date: 2026-11-24, status: 200, items: 26, note: "committees.parliament.uk returns 403 to automated requests"}
+
+  - id: guardian-media
+    name: The Guardian, media
+    desk: media
+    adapter: rss
+    url: https://www.theguardian.com/media/rss
+    homepage: https://www.theguardian.com/media
+    priority: 1
+    verified: {date: 2026-11-24, status: 200, items: 13}
+
+  - id: guardian-bbc
+    name: The Guardian, BBC
+    desk: media
+    adapter: rss
+    url: https://www.theguardian.com/media/bbc/rss
+    homepage: https://www.theguardian.com/media/bbc
+    priority: 1
+    topics_hint: [bbc]
+    verified: {date: 2026-11-24, status: 200, items: 20}
+
+  - id: guardian-tv-industry
+    name: The Guardian, television industry
+    desk: media
+    adapter: rss
+    url: https://www.theguardian.com/media/television/rss
+    homepage: https://www.theguardian.com/media/television
+    priority: 2
+    verified: {date: 2026-11-24, status: 200, items: 20}
+
+  - id: gn-broadcast
+    name: Broadcast (Google News)
+    desk: media
+    adapter: gnews
+    query: 'site:broadcastnow.co.uk'
+    priority: 1
+    paywalled: true
+    fetch_article: false
+    verified: {date: 2026-11-24, status: 200, items: 62, note: "Broadcast has no working RSS. Google returns some 2019 items, so the age floor applies"}
+
+  - id: gn-pressgazette
+    name: Press Gazette (Google News)
+    desk: media
+    adapter: gnews
+    query: 'site:pressgazette.co.uk'
+    priority: 2
+    topics_hint: [news-industry]
+    verified: {date: 2026-11-24, status: 200, items: 7, note: "pressgazette.co.uk feed returns 403"}
+
+  - id: c21
+    name: C21Media
+    desk: media
+    adapter: rss
+    url: https://www.c21media.net/feed/
+    homepage: https://www.c21media.net/
+    priority: 2
+    paywalled: true
+    fetch_article: false
+    max_new_per_run: 25
+    topics_hint: [business]
+    verified: {date: 2026-11-24, status: 200, items: 22}
+
+  - id: enders
+    name: Enders Analysis reports
+    desk: media
+    adapter: html_list
+    url: https://www.endersanalysis.com/
+    homepage: https://www.endersanalysis.com/
+    priority: 1
+    paywalled: true
+    fetch_article: false
+    topics_hint: [business]
+    extract:
+      item: 'article.node--type-report'
+      link: 'h3 a[href^="/reports/"]'
+      title: 'h3 a[href^="/reports/"]'
+      date_regex: '(\d{1,2} [A-Z][a-z]+ \d{4})'
+      date_format: '%d %B %Y'
+    verified: {date: 2026-11-24, status: 200, items: 3, note: "report titles only. Reports are paid"}
+
+  - id: deadline-bbc
+    name: Deadline, BBC tag
+    desk: media
+    adapter: rss
+    url: https://deadline.com/tag/bbc/feed/
+    homepage: https://deadline.com/tag/bbc/
+    priority: 1
+    paging: wordpress
+    topics_hint: [bbc]
+    verified: {date: 2026-11-24, status: 200, items: 12}
+
+  - id: deadline-international
+    name: Deadline International
+    desk: media
+    adapter: rss
+    url: https://deadline.com/v/international/feed/
+    homepage: https://deadline.com/v/international/
+    priority: 2
+    paging: wordpress
+    max_new_per_run: 25
+    verified: {date: 2026-11-24, status: 200, items: 12, note: "/category/international/feed/ returns 0 items"}
+
+  - id: deadline-business
+    name: Deadline Business
+    desk: media
+    adapter: rss
+    url: https://deadline.com/v/business/feed/
+    homepage: https://deadline.com/v/business/
+    priority: 2
+    paging: wordpress
+    max_new_per_run: 25
+    topics_hint: [business]
+    verified: {date: 2026-11-24, status: 200, items: 12}
+
+  - id: deadline-itv
+    name: Deadline, ITV tag
+    desk: media
+    adapter: rss
+    url: https://deadline.com/tag/itv/feed/
+    homepage: https://deadline.com/tag/itv/
+    priority: 2
+    topics_hint: [psb-uk]
+    verified: {date: 2026-11-24, status: 200, items: 12}
+
+  - id: deadline-channel4
+    name: Deadline, Channel 4 tag
+    desk: media
+    adapter: rss
+    url: https://deadline.com/tag/channel-4/feed/
+    homepage: https://deadline.com/tag/channel-4/
+    priority: 2
+    topics_hint: [psb-uk]
+    verified: {date: 2026-11-24, status: 200, items: 12}
+
+  - id: variety-global
+    name: Variety Global
+    desk: media
+    adapter: rss
+    url: https://variety.com/c/global/feed/
+    homepage: https://variety.com/c/global/
+    priority: 2
+    paging: wordpress
+    max_new_per_run: 25
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: variety-bbc
+    name: Variety, BBC tag
+    desk: media
+    adapter: rss
+    url: https://variety.com/t/bbc/feed/
+    homepage: https://variety.com/t/bbc/
+    priority: 2
+    topics_hint: [bbc]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: variety-business
+    name: Variety Business
+    desk: media
+    adapter: rss
+    url: https://variety.com/v/biz/feed/
+    homepage: https://variety.com/v/biz/
+    priority: 3
+    topics_hint: [business]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: thr-business
+    name: The Hollywood Reporter, business
+    desk: media
+    adapter: rss
+    url: https://www.hollywoodreporter.com/c/business/feed/
+    homepage: https://www.hollywoodreporter.com/c/business/
+    priority: 3
+    topics_hint: [business]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: channel4-press
+    name: Channel 4 press releases
+    desk: media
+    adapter: html_list
+    url: https://www.channel4.com/press/news
+    homepage: https://www.channel4.com/press/news
+    priority: 2
+    topics_hint: [psb-uk]
+    extract:
+      item: 'div.c-press-listing a[href^="/press/news/"]'
+      link: 'self'
+      title: 'self'
+      title_strip_regex: '^\s*\d{1,2} [A-Z][a-z]{2} \d{2}\s+News Release\s+'
+      date_regex: '^\s*(\d{1,2} [A-Z][a-z]{2} \d{2})'
+      date_format: '%d %b %y'
+    verified: {date: 2026-11-24, status: 200, items: 9, note: "anchor text holds date, label and title"}
+
+  - id: sky-newsroom
+    name: Sky Group newsroom
+    desk: media
+    adapter: rss
+    url: https://www.skygroup.sky/rss
+    homepage: https://www.skygroup.sky/newsroom
+    priority: 2
+    topics_hint: [psb-uk, business]
+    verified: {date: 2026-11-24, status: 200, items: 100, note: "feed holds items back to 2012. The age floor applies"}
+
+  - id: gn-itv-plc
+    name: ITV plc and ITV Studios (Google News)
+    desk: media
+    adapter: gnews
+    query: '"ITV plc" OR "ITV Studios"'
+    priority: 2
+    topics_hint: [psb-uk, business]
+    exclude: ['(?i)^chat with', '(?i)- ITVX$']
+    verified: {date: 2026-11-24, status: 200, items: 100, note: "itvplc.com news page returns 404"}
+
+  - id: ft-media
+    name: Financial Times, media
+    desk: media
+    adapter: rss
+    url: https://www.ft.com/media?format=rss
+    homepage: https://www.ft.com/media
+    priority: 2
+    paywalled: true
+    fetch_article: false
+    topics_hint: [business]
+    verified: {date: 2026-11-24, status: 200, items: 25}
+
+  - id: advanced-television
+    name: Advanced Television
+    desk: media
+    adapter: rss
+    url: https://advanced-television.com/feed/
+    homepage: https://advanced-television.com/
+    priority: 2
+    paging: wordpress
+    topics_hint: [tech]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: broadband-tv-news
+    name: Broadband TV News
+    desk: media
+    adapter: rss
+    url: https://www.broadbandtvnews.com/feed/
+    homepage: https://www.broadbandtvnews.com/
+    priority: 2
+    paging: wordpress
+    topics_hint: [tech]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: tvbeurope
+    name: TVBEurope
+    desk: media
+    adapter: rss
+    url: https://www.tvbeurope.com/feed
+    homepage: https://www.tvbeurope.com/
+    priority: 2
+    topics_hint: [tech]
+    verified: {date: 2026-11-24, status: 200, items: 20, note: "/feeds/all timed out and later returned 504"}
+
+  - id: dvb
+    name: DVB Project
+    desk: media
+    adapter: rss
+    url: https://dvb.org/feed/
+    homepage: https://dvb.org/
+    priority: 2
+    topics_hint: [tech]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: hbbtv
+    name: HbbTV Association
+    desk: media
+    adapter: rss
+    url: https://www.hbbtv.org/feed/
+    homepage: https://www.hbbtv.org/
+    priority: 3
+    topics_hint: [tech]
+    verified: {date: 2026-11-24, status: 200, items: 12}
+
+  - id: streaming-media
+    name: Streaming Media
+    desk: media
+    adapter: rss
+    url: http://feeds.feedburner.com/StreamingMediaMagazine-AllArticles/
+    homepage: https://www.streamingmedia.com/
+    priority: 3
+    topics_hint: [tech, streaming]
+    verified: {date: 2026-11-24, status: 200, items: 25}
+
+  - id: gn-ebu
+    name: EBU (Google News)
+    desk: media
+    adapter: gnews
+    query: 'site:ebu.ch'
+    priority: 2
+    topics_hint: [psb-uk, tech]
+    exclude: ['(?i)\b(academy|programme|course|webinar)\b']
+    verified: {date: 2026-11-24, status: 200, items: 66, note: "ebu.ch returns 403. Google returns old items, so the age floor applies"}
+
+  - id: gn-psm
+    name: Public service media (Google News)
+    desk: media
+    adapter: gnews
+    query: '"public service broadcasting" OR "public service media"'
+    priority: 3
+    topics_hint: [psb-uk]
+    exclude: ['(?i)\b(gig|tour|album|band|concert)\b']
+    verified: {date: 2026-11-24, status: 200, items: 30, note: "a band shares the name. The exclude rule removes it"}
+
+  - id: radiotoday
+    name: RadioToday
+    desk: media
+    adapter: rss
+    url: https://radiotoday.co.uk/feed/
+    homepage: https://radiotoday.co.uk/
+    priority: 2
+    topics_hint: [audio]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: podnews
+    name: Podnews
+    desk: media
+    adapter: rss
+    url: https://podnews.net/rss
+    homepage: https://podnews.net/
+    priority: 3
+    topics_hint: [audio]
+    verified: {date: 2026-11-24, status: 200, items: 151, note: "feed holds items back to 2018. The age floor applies"}
+
+  - id: reuters-institute
+    name: Reuters Institute
+    desk: media
+    adapter: rss
+    url: https://reutersinstitute.politics.ox.ac.uk/rss.xml
+    homepage: https://reutersinstitute.politics.ox.ac.uk/
+    priority: 2
+    topics_hint: [news-industry]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: niemanlab
+    name: Nieman Lab
+    desk: media
+    adapter: rss
+    url: https://www.niemanlab.org/feed/
+    homepage: https://www.niemanlab.org/
+    priority: 3
+    topics_hint: [news-industry]
+    verified: {date: 2026-11-24, status: 200, items: 30}
+
+  - id: journalism-co-uk
+    name: journalism.co.uk
+    desk: media
+    adapter: rss
+    url: https://www.journalism.co.uk/rss
+    homepage: https://www.journalism.co.uk/
+    priority: 3
+    topics_hint: [news-industry]
+    verified: {date: 2026-11-24, status: 200, items: 15}
+
+  - id: media-leader
+    name: The Media Leader
+    desk: media
+    adapter: rss
+    url: https://the-media-leader.com/feed/
+    homepage: https://the-media-leader.com/
+    priority: 2
+    topics_hint: [business]
+    verified: {date: 2026-11-24, status: 200, items: 10, note: "UK advertising and media market"}
+
+  - id: gn-campaign-tv
+    name: Campaign, TV items (Google News)
+    desk: media
+    adapter: gnews
+    query: 'site:campaignlive.co.uk TV'
+    priority: 3
+    topics_hint: [business]
+    verified: {date: 2026-11-24, status: 200, items: 100, note: "campaignlive.co.uk RSS returns 404"}
+
+  - id: cityam-media
+    name: City AM, media
+    desk: media
+    adapter: rss
+    url: https://www.cityam.com/category/media/feed/
+    homepage: https://www.cityam.com/category/media/
+    priority: 3
+    topics_hint: [business]
+    verified: {date: 2026-11-24, status: 200, items: 30}
+
+  - id: barb
+    name: Barb
+    desk: media
+    adapter: rss
+    url: https://www.barb.co.uk/feed/
+    homepage: https://www.barb.co.uk/news/
+    priority: 3
+    topics_hint: [business]
+    verified: {date: 2026-11-24, status: 200, items: 10, note: "UK TV audience measurement"}
+
+  - id: vlv
+    name: Voice of the Listener & Viewer
+    desk: media
+    adapter: rss
+    url: https://vlv.org.uk/feed/
+    homepage: https://vlv.org.uk/
+    priority: 3
+    topics_hint: [psb-uk, regulation]
+    verified: {date: 2026-11-24, status: 200, items: 10}
+
+  - id: bbc-news-entertainment
+    name: BBC News, entertainment and arts
+    desk: media
+    adapter: rss
+    url: https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml
+    homepage: https://www.bbc.co.uk/news/entertainment_and_arts
+    priority: 3
+    exclude: ['(?i)\b(review|obituary|dies aged|red carpet|strictly|i.m a celebrity)\b']
+    verified: {date: 2026-11-24, status: 200, items: 17}
+
+  - id: bbc-news-technology
+    name: BBC News, technology
+    desk: media
+    adapter: rss
+    url: https://feeds.bbci.co.uk/news/technology/rss.xml
+    homepage: https://www.bbc.co.uk/news/technology
+    priority: 3
+    include: ['(?i)\b(broadcast\w*|stream\w*|TV|television|radio|media|copyright|AI|artificial intelligence|Ofcom|online safety|platform\w*|YouTube|Netflix|Spotify|podcast\w*)\b']
+    verified: {date: 2026-11-24, status: 200, items: 21}
+
+  - id: screen-daily
+    name: Screen Daily
+    desk: media
+    adapter: rss
+    url: https://www.screendaily.com/45202.rss
+    homepage: https://www.screendaily.com/
+    priority: 3
+    exclude: ['(?i)\breview\b']
+    verified: {date: 2026-11-24, status: 200, items: 5, note: "found by feed discovery on the home page"}
+
+  # ------------------------------------------------ Disabled, kept for record
+
+  - id: the1709blog
+    name: The 1709 Blog
+    desk: ip
+    adapter: rss
+    url: https://the1709blog.blogspot.com/feeds/posts/default
+    enabled: false
+    disabled_reason: "newest post is from December 2019"
+
+  - id: televisual
+    name: Televisual
+    desk: media
+    adapter: rss
+    url: https://www.televisual.com/feed/
+    enabled: false
+    disabled_reason: "feed newest item is October 2021"
+
+  - id: deadline-tv
+    name: Deadline TV
+    desk: media
+    adapter: rss
+    url: https://deadline.com/v/tv/feed/
+    enabled: false
+    disabled_reason: "US entertainment volume, 12 items in a few hours. Tag feeds cover UK broadcasters"
+
+  - id: variety-tv
+    name: Variety TV
+    desk: media
+    adapter: rss
+    url: https://variety.com/v/tv/feed/
+    enabled: false
+    disabled_reason: "US entertainment volume"
+
+  - id: whats-on-netflix
+    name: What's on Netflix
+    desk: media
+    adapter: rss
+    url: https://www.whats-on-netflix.com/feed/
+    enabled: false
+    disabled_reason: "catalogue listings, not industry news"

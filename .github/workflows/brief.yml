@@ -1,0 +1,181 @@
+# Location in the repository: .github/workflows/brief.yml
+# Collects every source, writes summaries, commits data, publishes the site.
+# Action versions were checked against GitHub releases on 24 November 2026.
+
+name: Brief
+
+on:
+  schedule:
+    # Every three hours at 17 minutes past (UTC). 06:17 UTC is 06:17 in UK winter and 07:17 in UK summer.
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'normal, or backfill for the first big scan'
+        required: true
+        default: normal
+        type: choice
+        options: [normal, backfill]
+      days:
+        description: 'Backfill window in days (backfill only)'
+        required: false
+        default: '90'
+
+concurrency:
+  group: brief-main
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+  actions: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    outputs:
+      health: ${{ steps.health.outputs.status }}
+    env:
+      TZ: Europe/London
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m pytest -q
+
+      - name: Check site JavaScript syntax
+        run: for f in site/*.js; do node --check "$f"; done
+
+      - name: Collect sources
+        run: python -m brief collect --mode "${{ inputs.mode || 'normal' }}" --days "${{ inputs.days || '90' }}"
+
+      - name: Summarise with Gemini
+        id: gemini
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python -m brief summarise --provider gemini
+
+      - name: Restore local model cache
+        if: steps.gemini.outputs.needs_local == 'true'
+        uses: actions/cache@v6
+        with:
+          path: ~/.ollama-models
+          key: ollama-models-${{ steps.gemini.outputs.ollama_model_key }}
+
+      - name: Install Ollama
+        if: steps.gemini.outputs.needs_local == 'true'
+        env:
+          OLLAMA_VERSION: ${{ steps.gemini.outputs.ollama_version }}
+        run: |
+          curl -fsSL -o /tmp/ollama.tar.zst "https://github.com/ollama/ollama/releases/download/${OLLAMA_VERSION}/ollama-linux-amd64.tar.zst"
+          sudo tar --zstd -xf /tmp/ollama.tar.zst -C /usr/local
+          mkdir -p ~/.ollama-models
+          OLLAMA_MODELS=~/.ollama-models nohup ollama serve > /tmp/ollama.log 2>&1 &
+          for i in $(seq 1 30); do curl -fs http://127.0.0.1:11434/api/version && break; sleep 2; done
+          OLLAMA_MODELS=~/.ollama-models ollama pull "${{ steps.gemini.outputs.ollama_model }}"
+
+      - name: Summarise with the local model
+        if: steps.gemini.outputs.needs_local == 'true'
+        run: python -m brief summarise --provider ollama
+
+      - name: Validate data
+        run: python -m brief validate
+
+      - name: Commit data and state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data state
+          if git diff --staged --quiet; then
+            echo "No data change"
+          else
+            git commit -m "data: brief $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Build site
+        run: python -m brief build --out _site
+
+      - name: Check source health
+        id: health
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python -m brief health --issue-file _out/health-issue.md --github-output "$GITHUB_OUTPUT"
+          if [ -f _out/health-issue.md ]; then
+            num=$(gh issue list --label source-health --state open --json number --jq '.[0].number')
+            if [ -n "$num" ]; then
+              gh issue edit "$num" --body-file _out/health-issue.md
+            else
+              gh label create source-health --color B60205 --force
+              gh issue create --title "Source health: sources failing" --label source-health --body-file _out/health-issue.md
+            fi
+          else
+            num=$(gh issue list --label source-health --state open --json number --jq '.[0].number')
+            if [ -n "$num" ]; then gh issue close "$num" --comment "All sources recovered."; fi
+          fi
+
+      - name: Keep the schedule enabled
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/brief.yml/enable" || true
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+          include-hidden-files: true
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Wait for the github-pages artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for i in $(seq 1 20); do
+            count=$(gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts?name=github-pages" --jq '.total_count')
+            if [ "${count:-0}" -ge 1 ]; then echo "Artifact visible after attempt $i"; exit 0; fi
+            echo "Waiting for artifact (attempt $i)"
+            sleep 3
+          done
+          echo "::warning::Deploying after the wait limit"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+  health-gate:
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail the run when source health is red
+        run: |
+          echo "Health: ${{ needs.build.outputs.health }}"
+          if [ "${{ needs.build.outputs.health }}" = "red" ]; then
+            echo "::error::Too many sources failed. Open the Source health issue."
+            exit 1
+          fi

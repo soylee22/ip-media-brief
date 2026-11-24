@@ -1,0 +1,9 @@
+_site/
+_work/
+_out/
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+.DS_Store
+probe-report.md
