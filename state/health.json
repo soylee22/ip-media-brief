@@ -1,12 +1,12 @@
 {
  "access-advance": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 0,
+  "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 6,
@@ -17,26 +17,26 @@
  "advanced-television": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 10,
+  "entries_last_run": 20,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 197,
-   "2026-11-25": 0
+   "2026-11-25": 19
   },
-  "new_last_run": 0
+  "new_last_run": 19
  },
  "avanci": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 3,
   "consecutive_failures": 0,
   "entries_last_run": 0,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 3,
@@ -45,13 +45,13 @@
   "new_last_run": 0
  },
  "barb": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 3,
   "consecutive_failures": 0,
   "entries_last_run": 0,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 8,
@@ -62,30 +62,30 @@
  "bbc-news-entertainment": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 24,
+  "entries_last_run": 29,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 17,
-   "2026-11-25": 5
+   "2026-11-25": 9
   },
-  "new_last_run": 5
+  "new_last_run": 4
  },
  "bbc-news-technology": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 21,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 10,
-   "2026-11-25": 1
+   "2026-11-25": 2
   },
   "new_last_run": 1
  },
@@ -94,9 +94,9 @@
   "consecutive_failures": 0,
   "entries_last_run": 4,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 4,
@@ -109,54 +109,54 @@
   "consecutive_failures": 0,
   "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 200,
-   "2026-11-25": 1
+   "2026-11-25": 10
   },
-  "new_last_run": 1
+  "new_last_run": 9
  },
  "c21": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 22,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 22,
-   "2026-11-25": 3
+   "2026-11-25": 17
   },
-  "new_last_run": 3
+  "new_last_run": 14
  },
  "channel4-press": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 9,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 9,
-   "2026-11-25": 0
+   "2026-11-25": 2
   },
-  "new_last_run": 0
+  "new_last_run": 2
  },
  "chinaipr": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 7,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 4,
@@ -169,9 +169,9 @@
   "consecutive_failures": 0,
   "entries_last_run": 30,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 30,
@@ -184,24 +184,24 @@
   "consecutive_failures": 0,
   "entries_last_run": 100,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 20,
-   "2026-11-25": 0
+   "2026-11-25": 1
   },
-  "new_last_run": 0
+  "new_last_run": 1
  },
  "copyright-alliance": {
-  "consecutive_empty": 1,
+  "consecutive_empty": 2,
   "consecutive_failures": 0,
   "entries_last_run": 0,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 10,
@@ -210,13 +210,13 @@
   "new_last_run": 0
  },
  "creative-commons": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 0,
+  "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 10,
@@ -229,9 +229,9 @@
   "consecutive_failures": 0,
   "entries_last_run": 99,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 17,
@@ -244,28 +244,28 @@
   "consecutive_failures": 0,
   "entries_last_run": 12,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 116,
-   "2026-11-25": 0
+   "2026-11-25": 3
   },
-  "new_last_run": 0
+  "new_last_run": 3
  },
  "deadline-business": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 12,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 228,
-   "2026-11-25": 1
+   "2026-11-25": 2
   },
   "new_last_run": 1
  },
@@ -274,9 +274,9 @@
   "consecutive_failures": 0,
   "entries_last_run": 12,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 6,
@@ -289,24 +289,24 @@
   "consecutive_failures": 0,
   "entries_last_run": 12,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 205,
-   "2026-11-25": 3
+   "2026-11-25": 12
   },
-  "new_last_run": 3
+  "new_last_run": 9
  },
  "deadline-itv": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 12,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 4,
@@ -319,9 +319,9 @@
   "consecutive_failures": 0,
   "entries_last_run": 99,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 0,
@@ -330,28 +330,28 @@
   "new_last_run": 0
  },
  "dvb": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 0,
+  "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 10,
-   "2026-11-25": 0
+   "2026-11-25": 1
   },
-  "new_last_run": 0
+  "new_last_run": 1
  },
  "eff": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 50,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 4,
@@ -364,9 +364,9 @@
   "consecutive_failures": 0,
   "entries_last_run": 3,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 3,
@@ -375,43 +375,43 @@
   "new_last_run": 0
  },
  "fcl-copyright": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 0,
+  "entries_last_run": 50,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 154,
-   "2026-11-25": 0
+   "2026-11-25": 3
   },
-  "new_last_run": 0
+  "new_last_run": 3
  },
  "fcl-ipec": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 0,
+  "entries_last_run": 50,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 6,
-   "2026-11-25": 0
+   "2026-11-25": 1
   },
-  "new_last_run": 0
+  "new_last_run": 1
  },
  "fcl-patent-search": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 3,
   "consecutive_failures": 0,
   "entries_last_run": 0,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 21,
@@ -420,13 +420,13 @@
   "new_last_run": 0
  },
  "fcl-patents-court": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 3,
   "consecutive_failures": 0,
   "entries_last_run": 0,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 8,
@@ -435,13 +435,13 @@
   "new_last_run": 0
  },
  "fcl-trade-marks": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 3,
   "consecutive_failures": 0,
   "entries_last_run": 0,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 8,
@@ -454,54 +454,54 @@
   "consecutive_failures": 0,
   "entries_last_run": 25,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 24,
-   "2026-11-25": 0
+   "2026-11-25": 1
   },
-  "new_last_run": 0
+  "new_last_run": 1
  },
  "gn-bbc-charter": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 82,
+  "entries_last_run": 100,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 41,
-   "2026-11-25": 4
+   "2026-11-25": 8
   },
   "new_last_run": 4
  },
  "gn-bbc-mediacentre": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 100,
+  "entries_last_run": 94,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 51,
-   "2026-11-25": 5
+   "2026-11-25": 8
   },
-  "new_last_run": 5
+  "new_last_run": 3
  },
  "gn-bbc-rd": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 51,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 7,
@@ -514,129 +514,129 @@
   "consecutive_failures": 0,
   "entries_last_run": 100,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 54,
-   "2026-11-25": 0
+   "2026-11-25": 1
   },
-  "new_last_run": 0
+  "new_last_run": 1
  },
  "gn-campaign-tv": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 97,
+  "entries_last_run": 100,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 78,
-   "2026-11-25": 10
+   "2026-11-25": 22
   },
-  "new_last_run": 10
+  "new_last_run": 12
  },
  "gn-copyright-ai-uk": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 33,
+  "entries_last_run": 100,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 0,
-   "2026-11-25": 0
+   "2026-11-25": 1
   },
-  "new_last_run": 0
+  "new_last_run": 1
  },
  "gn-ebu": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 100,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 3,
-   "2026-11-25": 0
+   "2026-11-25": 2
   },
-  "new_last_run": 0
+  "new_last_run": 2
  },
  "gn-epo": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 79,
+  "entries_last_run": 17,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 33,
-   "2026-11-25": 0
+   "2026-11-25": 1
   },
-  "new_last_run": 0
+  "new_last_run": 1
  },
  "gn-euipo": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 58,
+  "entries_last_run": 59,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 7,
-   "2026-11-25": 0
+   "2026-11-25": 3
   },
-  "new_last_run": 0
+  "new_last_run": 3
  },
  "gn-itv-plc": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 100,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 1,
-   "2026-11-25": 0
+   "2026-11-25": 1
   },
-  "new_last_run": 0
+  "new_last_run": 1
  },
  "gn-managingip": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 100,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 12,
    "2026-11-25": 1
   },
-  "new_last_run": 1
+  "new_last_run": 0
  },
  "gn-parliament-media": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 56,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 5,
@@ -647,41 +647,41 @@
  "gn-pressgazette": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 64,
+  "entries_last_run": 70,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 16,
-   "2026-11-25": 0
+   "2026-11-25": 7
   },
-  "new_last_run": 0
+  "new_last_run": 7
  },
  "gn-psm": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 51,
+  "entries_last_run": 100,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 65,
-   "2026-11-25": 0
+   "2026-11-25": 2
   },
-  "new_last_run": 0
+  "new_last_run": 2
  },
  "gn-sep-frand": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 100,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 40,
@@ -692,11 +692,11 @@
  "gn-ukipo-commentary": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 35,
+  "entries_last_run": 34,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 31,
@@ -707,26 +707,26 @@
  "gn-upc": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 31,
+  "entries_last_run": 100,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 3,
-   "2026-11-25": 0
+   "2026-11-25": 7
   },
-  "new_last_run": 0
+  "new_last_run": 7
  },
  "gn-wipr": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 100,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 26,
@@ -739,9 +739,9 @@
   "consecutive_failures": 0,
   "entries_last_run": 20,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 18,
@@ -754,9 +754,9 @@
   "consecutive_failures": 0,
   "entries_last_run": 20,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 19,
@@ -769,24 +769,24 @@
   "consecutive_failures": 0,
   "entries_last_run": 20,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 20,
-   "2026-11-25": 1
+   "2026-11-25": 10
   },
-  "new_last_run": 1
+  "new_last_run": 9
  },
  "guardian-tv-industry": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 20,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 16,
@@ -795,13 +795,13 @@
   "new_last_run": 0
  },
  "hbbtv": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 0,
+  "entries_last_run": 12,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 4,
@@ -814,24 +814,24 @@
   "consecutive_failures": 0,
   "entries_last_run": 100,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 100,
-   "2026-11-25": 0
+   "2026-11-25": 7
   },
-  "new_last_run": 0
+  "new_last_run": 7
  },
  "ipdraughts": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 4,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 4,
@@ -844,50 +844,50 @@
   "consecutive_failures": 0,
   "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 200,
-   "2026-11-25": 4
+   "2026-11-25": 7
   },
-  "new_last_run": 4
+  "new_last_run": 3
  },
  "ipkat": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 20,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 116,
-   "2026-11-25": 1
+   "2026-11-25": 3
   },
-  "new_last_run": 1
+  "new_last_run": 2
  },
  "ipwatchdog": {
-  "consecutive_empty": 1,
+  "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 0,
+  "entries_last_run": 15,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 15,
-   "2026-11-25": 0
+   "2026-11-25": 2
   },
-  "new_last_run": 0
+  "new_last_run": 2
  },
  "jdsupra-ip": {
   "consecutive_empty": 0,
-  "consecutive_failures": 3,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "consecutive_failures": 4,
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": "AttributeError: object has no attribute 'version'",
   "last_status": null,
   "new_by_day": {}
@@ -897,54 +897,54 @@
   "consecutive_failures": 0,
   "entries_last_run": 15,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 15,
    "2026-11-25": 2
   },
-  "new_last_run": 2
+  "new_last_run": 0
  },
  "juve-patent": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 71,
    "2026-11-25": 1
   },
-  "new_last_run": 1
+  "new_last_run": 0
  },
  "kluwer-copyright": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 7,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 7,
-   "2026-11-25": 0
+   "2026-11-25": 1
   },
-  "new_last_run": 0
+  "new_last_run": 1
  },
  "kluwer-patent": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 7,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 7,
@@ -957,9 +957,9 @@
   "consecutive_failures": 0,
   "entries_last_run": 7,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 7,
@@ -968,28 +968,28 @@
   "new_last_run": 0
  },
  "media-leader": {
-  "consecutive_empty": 0,
+  "consecutive_empty": 1,
   "consecutive_failures": 0,
-  "entries_last_run": 10,
+  "entries_last_run": 0,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 9,
    "2026-11-25": 1
   },
-  "new_last_run": 1
+  "new_last_run": 0
  },
  "niemanlab": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 0,
+  "entries_last_run": 30,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 26,
@@ -999,8 +999,8 @@
  },
  "ofcom": {
   "consecutive_empty": 0,
-  "consecutive_failures": 3,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "consecutive_failures": 4,
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": "robots.txt disallows this page",
   "last_status": null,
   "new_by_day": {}
@@ -1010,9 +1010,9 @@
   "consecutive_failures": 0,
   "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 9,
@@ -1025,9 +1025,9 @@
   "consecutive_failures": 0,
   "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 7,
@@ -1036,43 +1036,43 @@
   "new_last_run": 0
  },
  "osi": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 0,
+  "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 10,
-   "2026-11-25": 0
+   "2026-11-25": 1
   },
-  "new_last_run": 0
+  "new_last_run": 1
  },
  "patentlyo": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 10,
-   "2026-11-25": 0
+   "2026-11-25": 1
   },
-  "new_last_run": 0
+  "new_last_run": 1
  },
  "plagiarism-today": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 3,
   "consecutive_failures": 0,
   "entries_last_run": 0,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 10,
@@ -1081,43 +1081,43 @@
   "new_last_run": 0
  },
  "podnews": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 0,
+  "entries_last_run": 151,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 64,
-   "2026-11-25": 0
+   "2026-11-25": 1
   },
-  "new_last_run": 0
+  "new_last_run": 1
  },
  "radiotoday": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 0,
+  "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 10,
-   "2026-11-25": 0
+   "2026-11-25": 1
   },
-  "new_last_run": 0
+  "new_last_run": 1
  },
  "reuters-institute": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 0,
+  "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 9,
@@ -1130,24 +1130,24 @@
   "consecutive_failures": 0,
   "entries_last_run": 5,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 4,
-   "2026-11-25": 0
+   "2026-11-25": 2
   },
-  "new_last_run": 0
+  "new_last_run": 2
  },
  "sfc": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 1,
@@ -1160,24 +1160,24 @@
   "consecutive_failures": 0,
   "entries_last_run": 100,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 51,
-   "2026-11-25": 0
+   "2026-11-25": 1
   },
-  "new_last_run": 0
+  "new_last_run": 1
  },
  "streaming-media": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 25,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 25,
@@ -1186,13 +1186,13 @@
   "new_last_run": 0
  },
  "technollama": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 0,
+  "entries_last_run": 8,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 8,
@@ -1205,54 +1205,54 @@
   "consecutive_failures": 0,
   "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 11,
-   "2026-11-25": 0
+   "2026-11-25": 4
   },
-  "new_last_run": 0
+  "new_last_run": 4
  },
  "tvbeurope": {
-  "consecutive_empty": 2,
+  "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 0,
+  "entries_last_run": 20,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 20,
-   "2026-11-25": 0
+   "2026-11-25": 6
   },
-  "new_last_run": 0
+  "new_last_run": 6
  },
  "ukipo": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 99,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 183,
    "2026-11-25": 1
   },
-  "new_last_run": 1
+  "new_last_run": 0
  },
  "variety-bbc": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 7,
@@ -1265,39 +1265,39 @@
   "consecutive_failures": 0,
   "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 10,
-   "2026-11-25": 0
+   "2026-11-25": 3
   },
-  "new_last_run": 0
+  "new_last_run": 3
  },
  "variety-global": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
-  "entries_last_run": 10,
+  "entries_last_run": 30,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 190,
-   "2026-11-25": 3
+   "2026-11-25": 26
   },
-  "new_last_run": 3
+  "new_last_run": 23
  },
  "via-la": {
   "consecutive_empty": 0,
   "consecutive_failures": 0,
   "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 7,
@@ -1310,9 +1310,9 @@
   "consecutive_failures": 0,
   "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 0,
@@ -1325,9 +1325,9 @@
   "consecutive_failures": 0,
   "entries_last_run": 10,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 5,
@@ -1340,14 +1340,14 @@
   "consecutive_failures": 0,
   "entries_last_run": 100,
   "ever_had_entries": true,
-  "last_attempt_at": "2026-11-25T08:43:44Z",
+  "last_attempt_at": "2026-11-25T19:22:00Z",
   "last_error": null,
-  "last_ok_at": "2026-11-25T08:43:44Z",
+  "last_ok_at": "2026-11-25T19:22:00Z",
   "last_status": 200,
   "new_by_day": {
    "2026-11-24": 100,
-   "2026-11-25": 0
+   "2026-11-25": 2
   },
-  "new_last_run": 0
+  "new_last_run": 2
  }
 }
