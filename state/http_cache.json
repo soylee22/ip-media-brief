@@ -8,8 +8,8 @@
   "last_modified": "Wed, 25 Nov 2026 14:49:02 GMT"
  },
  "https://advanced-television.com/feed/": {
-  "etag": "\"6a4241c0ab9fd084597a6e4820625d13-gzip\"",
-  "last_modified": "Thu, 26 Nov 2026 00:00:44 GMT"
+  "etag": "\"705d66ef8ad8f59ba5ea5e988e4bca44-gzip\"",
+  "last_modified": "Thu, 26 Nov 2026 16:47:16 GMT"
  },
  "https://caselaw.nationalarchives.gov.uk/atom.xml?court=ewhc/ipec": {
   "etag": null,
@@ -17,7 +17,7 @@
  },
  "https://caselaw.nationalarchives.gov.uk/atom.xml?court=ewhc/pat": {
   "etag": null,
-  "last_modified": "Tue, 17 Nov 2026 11:28:53 GMT"
+  "last_modified": "Thu, 26 Nov 2026 12:15:51 GMT"
  },
  "https://caselaw.nationalarchives.gov.uk/atom.xml?query=%22trade+mark%22": {
   "etag": null,
@@ -25,15 +25,15 @@
  },
  "https://caselaw.nationalarchives.gov.uk/atom.xml?query=copyright": {
   "etag": null,
-  "last_modified": "Wed, 25 Nov 2026 14:24:34 GMT"
+  "last_modified": "Thu, 26 Nov 2026 15:28:23 GMT"
  },
  "https://caselaw.nationalarchives.gov.uk/atom.xml?query=patent": {
   "etag": null,
-  "last_modified": "Fri, 20 Nov 2026 11:38:29 GMT"
+  "last_modified": "Thu, 26 Nov 2026 13:43:59 GMT"
  },
  "https://chinaipr.com/feed/": {
   "etag": null,
-  "last_modified": "Wed, 25 Nov 2026 16:04:23 GMT"
+  "last_modified": "Wed, 25 Nov 2026 16:03:06 GMT"
  },
  "https://copyrightalliance.org/feed/": {
   "etag": "W/\"58230229ae93228f564a4e6a41838461\"",
@@ -44,40 +44,40 @@
   "last_modified": "Wed, 25 Nov 2026 16:53:29 GMT"
  },
  "https://deadline.com/tag/bbc/feed/": {
-  "etag": "W/\"8764661d16c3c81acb26153db2664fd6\"",
-  "last_modified": "Thu, 26 Nov 2026 03:27:59 GMT"
+  "etag": "W/\"44d8fafdebc9e096733d518b5df70c0e\"",
+  "last_modified": "Thu, 26 Nov 2026 16:06:05 GMT"
  },
  "https://deadline.com/tag/channel-4/feed/": {
-  "etag": "W/\"8764661d16c3c81acb26153db2664fd6\"",
-  "last_modified": "Thu, 26 Nov 2026 03:27:59 GMT"
+  "etag": "W/\"44d8fafdebc9e096733d518b5df70c0e\"",
+  "last_modified": "Thu, 26 Nov 2026 16:06:05 GMT"
  },
  "https://deadline.com/tag/itv/feed/": {
-  "etag": "W/\"8764661d16c3c81acb26153db2664fd6\"",
-  "last_modified": "Thu, 26 Nov 2026 03:27:59 GMT"
+  "etag": "W/\"44d8fafdebc9e096733d518b5df70c0e\"",
+  "last_modified": "Thu, 26 Nov 2026 16:06:05 GMT"
  },
  "https://deadline.com/v/business/feed/": {
-  "etag": "W/\"8764661d16c3c81acb26153db2664fd6\"",
-  "last_modified": "Thu, 26 Nov 2026 03:27:59 GMT"
+  "etag": "W/\"44d8fafdebc9e096733d518b5df70c0e\"",
+  "last_modified": "Thu, 26 Nov 2026 16:06:05 GMT"
  },
  "https://deadline.com/v/international/feed/": {
-  "etag": "W/\"8764661d16c3c81acb26153db2664fd6\"",
-  "last_modified": "Thu, 26 Nov 2026 03:27:59 GMT"
+  "etag": "W/\"44d8fafdebc9e096733d518b5df70c0e\"",
+  "last_modified": "Thu, 26 Nov 2026 16:06:05 GMT"
  },
  "https://dvb.org/feed/": {
-  "etag": "W/\"18dccc8c8206c3a0bf99f67de5a0d769\"",
-  "last_modified": "Wed, 25 Nov 2026 15:04:56 GMT"
+  "etag": "W/\"f277181cf21a182d4426cc45a40f128a\"",
+  "last_modified": "Thu, 26 Nov 2026 16:29:24 GMT"
  },
  "https://ipdraughts.wordpress.com/feed/": {
   "etag": null,
-  "last_modified": "Tue, 17 Nov 2026 14:42:30 GMT"
+  "last_modified": "Tue, 17 Nov 2026 14:49:36 GMT"
  },
  "https://ipfray.com/feed/": {
   "etag": null,
-  "last_modified": "Wed, 25 Nov 2026 20:03:36 GMT"
+  "last_modified": "Thu, 26 Nov 2026 14:34:12 GMT"
  },
  "https://ipkitten.blogspot.com/feeds/posts/default": {
   "etag": null,
-  "last_modified": "Wed, 25 Nov 2026 23:41:13 GMT"
+  "last_modified": "Thu, 26 Nov 2026 16:35:31 GMT"
  },
  "https://ipkitten.blogspot.com/feeds/posts/default?max-results=150&start-index=1": {
   "etag": "W/\"7470bee1280d829d1d86f7ed194a7d64c184db8fff623789c6bc4a24cea0557e\"",
@@ -89,63 +89,63 @@
  },
  "https://legalblogs.wolterskluwer.com/copyright-blog/rss.xml": {
   "etag": null,
-  "last_modified": "Thu, 26 Nov 2026 01:47:48 GMT"
+  "last_modified": "Thu, 26 Nov 2026 16:59:10 GMT"
  },
  "https://legalblogs.wolterskluwer.com/patent-blog/rss.xml": {
   "etag": null,
-  "last_modified": "Thu, 26 Nov 2026 03:36:58 GMT"
+  "last_modified": "Thu, 26 Nov 2026 16:59:07 GMT"
  },
  "https://legalblogs.wolterskluwer.com/trademark-blog/rss.xml": {
   "etag": null,
-  "last_modified": "Thu, 26 Nov 2026 03:37:02 GMT"
+  "last_modified": "Thu, 26 Nov 2026 16:59:12 GMT"
  },
  "https://openinventionnetwork.com/feed/": {
   "etag": "W/\"f29fc7cdaffb9abd4d8820128b92e70f\"",
   "last_modified": "Mon, 23 Nov 2026 00:01:16 GMT"
  },
  "https://opensource.org/feed": {
-  "etag": "W/\"4db930a79ac227f6f195d82a6aa99b1a\"",
-  "last_modified": "Wed, 25 Nov 2026 13:40:08 GMT"
+  "etag": "W/\"722e3935ee09455fc52c73efaefea884\"",
+  "last_modified": "Thu, 26 Nov 2026 10:57:47 GMT"
  },
  "https://openuk.uk/feed/": {
-  "etag": "\"a3112a049828abff7100fd8bac0be113-gzip\"",
-  "last_modified": "Wed, 25 Nov 2026 23:26:32 GMT"
+  "etag": "\"9d0456ccbf15765f489e1ac8ee70e1b8-gzip\"",
+  "last_modified": "Thu, 26 Nov 2026 16:05:39 GMT"
  },
  "https://patentlyo.com/feed": {
   "etag": null,
-  "last_modified": "Thu, 26 Nov 2026 02:30:05 GMT"
+  "last_modified": "Thu, 26 Nov 2026 16:56:37 GMT"
  },
  "https://podnews.net/rss": {
-  "etag": "\"23532c-661193a0eaa0e-gzip\"",
-  "last_modified": "Wed, 25 Nov 2026 12:47:16 GMT"
+  "etag": "\"2351d0-6612bd941b2cf-gzip\"",
+  "last_modified": "Thu, 26 Nov 2026 11:00:16 GMT"
  },
  "https://radiotoday.co.uk/feed/": {
-  "etag": "\"218b3b1cdd79400ba04676713cfc1c83\"",
-  "last_modified": "Wed, 25 Nov 2026 16:13:27 GMT"
+  "etag": "\"a549b0648592e92a1a7e916087e72781\"",
+  "last_modified": "Thu, 26 Nov 2026 16:07:24 GMT"
  },
  "https://reutersinstitute.politics.ox.ac.uk/rss.xml": {
-  "etag": "\"1795619704-gzip\"",
-  "last_modified": "Wed, 25 Nov 2026 15:15:04 GMT"
+  "etag": "\"1795711516-gzip\"",
+  "last_modified": "Thu, 26 Nov 2026 16:45:16 GMT"
  },
  "https://sfconservancy.org/feeds/blog/": {
   "etag": null,
   "last_modified": "Thu, 05 Nov 2026 18:32:00 GMT"
  },
  "https://the-media-leader.com/feed/": {
-  "etag": "\"b35e256456b22e7cf14d0602b5226254\"",
-  "last_modified": "Thu, 26 Nov 2026 00:01:00 GMT"
+  "etag": "\"aa2e4c80e28e9d7bc352306ae568b6b4\"",
+  "last_modified": "Thu, 26 Nov 2026 16:10:34 GMT"
  },
  "https://variety.com/c/global/feed/": {
-  "etag": "W/\"fd2b39f6b78d3f6b8ba3213111810ab7\"",
-  "last_modified": "Thu, 26 Nov 2026 03:31:45 GMT"
+  "etag": "W/\"a2a048df8da716915e35aebe0f35297e\"",
+  "last_modified": "Thu, 26 Nov 2026 16:44:55 GMT"
  },
  "https://variety.com/t/bbc/feed/": {
-  "etag": "W/\"fd2b39f6b78d3f6b8ba3213111810ab7\"",
-  "last_modified": "Thu, 26 Nov 2026 03:31:45 GMT"
+  "etag": "W/\"a2a048df8da716915e35aebe0f35297e\"",
+  "last_modified": "Thu, 26 Nov 2026 16:44:55 GMT"
  },
  "https://variety.com/v/biz/feed/": {
-  "etag": "W/\"2732fbb960b4f7e7f1f53953eec13d33\"",
-  "last_modified": "Thu, 26 Nov 2026 02:41:50 GMT"
+  "etag": "W/\"748038c1c616bd64336fe0aa9f76b4f2\"",
+  "last_modified": "Thu, 26 Nov 2026 14:23:53 GMT"
  },
  "https://vlv.org.uk/feed/": {
   "etag": "\"7f13b67dc64ada90b32e512804912c26-gzip\"",
@@ -160,40 +160,40 @@
   "last_modified": "Mon, 16 Nov 2026 13:36:31 GMT"
  },
  "https://www.broadbandtvnews.com/feed/": {
-  "etag": "W/\"cce9d51896752669a5c8aee53f584946\"",
-  "last_modified": "Wed, 25 Nov 2026 13:08:38 GMT"
+  "etag": "W/\"59d7a9df8b491c353aab964a3012c9f9\"",
+  "last_modified": "Thu, 26 Nov 2026 13:08:16 GMT"
  },
  "https://www.c21media.net/feed/": {
-  "etag": "W/\"1430df4a57d65b24a7e8df59a70b48d2\"",
-  "last_modified": "Thu, 26 Nov 2026 00:15:02 GMT"
+  "etag": "W/\"6f1b2ac4b696dcd1d10f119190688ba5\"",
+  "last_modified": "Thu, 26 Nov 2026 13:10:28 GMT"
  },
  "https://www.cityam.com/category/media/feed/": {
-  "etag": "W/\"83868621af02891c4584be9eeef7a660\"",
-  "last_modified": "Thu, 26 Nov 2026 00:01:52 GMT"
+  "etag": "W/\"d630f3800a22b557ab8faa238cc2ad59\"",
+  "last_modified": "Thu, 26 Nov 2026 16:57:31 GMT"
  },
  "https://www.eff.org/rss/updates.xml": {
-  "etag": "\"1795658449-0\"",
-  "last_modified": "Thu, 26 Nov 2026 02:00:49 GMT"
+  "etag": "\"1795708828-0\"",
+  "last_modified": "Thu, 26 Nov 2026 16:00:28 GMT"
  },
  "https://www.ft.com/media?format=rss": {
-  "etag": "W/\"2fa4-oRrkS9qJf8/CUgZN249I8/nZslo\"",
+  "etag": "W/\"2fba-Fh1jV11AfTUAN/gK75J2xiSt3yo\"",
   "last_modified": null
  },
  "https://www.hbbtv.org/feed/": {
-  "etag": "W/\"5b7de9a2c2f119bec92ef2d1be3b14af\"",
-  "last_modified": "Wed, 25 Nov 2026 14:39:00 GMT"
+  "etag": "W/\"bac4ab297e503b4ae44732d8bd41cd04\"",
+  "last_modified": "Thu, 26 Nov 2026 13:08:38 GMT"
  },
  "https://www.hollywoodreporter.com/c/business/feed/": {
-  "etag": "W/\"aa2b12c93334cee762dddf1e5222faf0\"",
-  "last_modified": "Thu, 26 Nov 2026 02:01:30 GMT"
+  "etag": "W/\"84c111e04181c702c05c755e88cb1931\"",
+  "last_modified": "Thu, 26 Nov 2026 16:02:49 GMT"
  },
  "https://www.journalism.co.uk/rss": {
-  "etag": "W/\"10ea6-vk6aYaFwJaFT/VYcqF9aiU8d+eU\"",
+  "etag": "W/\"1080c-uj1l/7D73nclxH9hxwJk3gaGOxY\"",
   "last_modified": null
  },
  "https://www.juve-patent.com/feed/": {
-  "etag": "\"b23eb3a2a652a2381a085ab1645f7d79\"",
-  "last_modified": "Wed, 25 Nov 2026 14:23:04 GMT"
+  "etag": "\"a04fa480b9a83abbd81a527043213498\"",
+  "last_modified": "Thu, 26 Nov 2026 09:24:25 GMT"
  },
  "https://www.niemanlab.org/feed/": {
   "etag": "\"54cf9ec28ae0cad63c519426edef3985-gzip\"",
@@ -208,27 +208,27 @@
   "last_modified": "Wed, 25 Nov 2026 14:25:27 GMT"
  },
  "https://www.theguardian.com/law/intellectual-property/rss": {
-  "etag": "W/\"hash-2936464603089767577\"",
+  "etag": "W/\"hash-6650646518494840407\"",
   "last_modified": null
  },
  "https://www.theguardian.com/media/bbc/rss": {
-  "etag": "W/\"hash-3872462656396840335\"",
+  "etag": "W/\"hash-4514816607206988108\"",
   "last_modified": null
  },
  "https://www.theguardian.com/media/rss": {
-  "etag": "W/\"hash-203187290518940657\"",
+  "etag": "W/\"hash-3466998673157995008\"",
   "last_modified": null
  },
  "https://www.theguardian.com/media/television/rss": {
-  "etag": "W/\"hash-3412459922385713736\"",
+  "etag": "W/\"hash6383434889444269114\"",
   "last_modified": null
  },
  "https://www.tvbeurope.com/feed": {
-  "etag": "\"f54292c0fdaa962c39056f0debd9960f\"",
-  "last_modified": "Wed, 25 Nov 2026 16:09:44 GMT"
+  "etag": "\"2868306b38587e452e74d060edc2f921\"",
+  "last_modified": "Thu, 26 Nov 2026 15:52:45 GMT"
  },
  "https://www.wipo.int/pressroom/en/rss.xml": {
   "etag": null,
-  "last_modified": "Thu, 26 Nov 2026 03:37:02 GMT"
+  "last_modified": "Thu, 26 Nov 2026 16:59:11 GMT"
  }
 }
