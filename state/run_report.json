@@ -101,7 +101,7 @@
    "title": "EFF to Congress: Mass Surveillance Is Too Important to Shove into Must-Pass Bill"
   }
  ],
- "finished_at": "2026-11-27T12:34:08Z",
+ "finished_at": "2026-11-27T23:40:25Z",
  "mode": "normal",
  "sources": {
   "access-advance": {
@@ -111,9 +111,9 @@
    "status": "ok"
   },
   "advanced-television": {
-   "entries": 20,
-   "new": 12,
-   "revised": 0,
+   "entries": 10,
+   "new": 5,
+   "revised": 1,
    "status": "ok"
   },
   "avanci": {
@@ -129,15 +129,15 @@
    "status": "ok"
   },
   "bbc-news-entertainment": {
-   "entries": 25,
-   "new": 0,
-   "revised": 2,
+   "entries": 19,
+   "new": 5,
+   "revised": 0,
    "status": "ok"
   },
   "bbc-news-technology": {
    "entries": 21,
    "new": 0,
-   "revised": 0,
+   "revised": 1,
    "status": "ok"
   },
   "bbcstudios": {
@@ -148,13 +148,13 @@
   },
   "broadband-tv-news": {
    "entries": 10,
-   "new": 8,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
   "c21": {
    "entries": 22,
-   "new": 13,
+   "new": 2,
    "revised": 0,
    "status": "ok"
   },
@@ -208,7 +208,7 @@
   },
   "deadline-business": {
    "entries": 12,
-   "new": 0,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
@@ -256,7 +256,7 @@
   },
   "fcl-copyright": {
    "entries": 50,
-   "new": 1,
+   "new": 4,
    "revised": 0,
    "status": "ok"
   },
@@ -286,121 +286,85 @@
   },
   "ft-media": {
    "entries": 25,
-   "new": 0,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
   "gn-bbc-charter": {
-   "entries": 100,
-   "new": 0,
-   "revised": 0,
-   "status": "ok"
+   "error": "HTTP 503",
+   "status": "error"
   },
   "gn-bbc-mediacentre": {
-   "entries": 100,
-   "new": 4,
-   "revised": 0,
-   "status": "ok"
+   "error": "HTTP 503",
+   "status": "error"
   },
   "gn-bbc-rd": {
-   "entries": 49,
-   "new": 0,
-   "revised": 0,
-   "status": "ok"
+   "error": "HTTP 503",
+   "status": "error"
   },
   "gn-broadcast": {
-   "entries": 100,
-   "new": 8,
-   "revised": 0,
-   "status": "ok"
+   "error": "HTTP 503",
+   "status": "error"
   },
   "gn-campaign-tv": {
-   "entries": 93,
-   "new": 20,
-   "revised": 0,
-   "status": "ok"
+   "error": "HTTP 503",
+   "status": "error"
   },
   "gn-copyright-ai-uk": {
-   "entries": 34,
-   "new": 0,
-   "revised": 0,
-   "status": "ok"
+   "error": "HTTP 503",
+   "status": "error"
   },
   "gn-ebu": {
-   "entries": 100,
-   "new": 0,
-   "revised": 0,
-   "status": "ok"
+   "error": "HTTP 503",
+   "status": "error"
   },
   "gn-epo": {
-   "entries": 100,
-   "new": 1,
-   "revised": 0,
-   "status": "ok"
+   "error": "HTTP 503",
+   "status": "error"
   },
   "gn-euipo": {
-   "entries": 100,
-   "new": 0,
-   "revised": 0,
-   "status": "ok"
+   "error": "HTTP 503",
+   "status": "error"
   },
   "gn-itv-plc": {
-   "entries": 100,
-   "new": 0,
-   "revised": 0,
-   "status": "ok"
+   "error": "HTTP 503",
+   "status": "error"
   },
   "gn-managingip": {
-   "entries": 48,
-   "new": 12,
-   "revised": 0,
-   "status": "ok"
+   "error": "HTTP 503",
+   "status": "error"
   },
   "gn-parliament-media": {
-   "entries": 100,
-   "new": 0,
-   "revised": 0,
-   "status": "ok"
+   "error": "HTTP 503",
+   "status": "error"
   },
   "gn-pressgazette": {
-   "entries": 100,
-   "new": 5,
-   "revised": 0,
-   "status": "ok"
+   "error": "HTTP 503",
+   "status": "error"
   },
   "gn-psm": {
-   "entries": 52,
-   "new": 1,
-   "revised": 0,
-   "status": "ok"
+   "error": "HTTP 503",
+   "status": "error"
   },
   "gn-sep-frand": {
-   "entries": 26,
-   "new": 0,
-   "revised": 0,
-   "status": "ok"
+   "error": "HTTP 503",
+   "status": "error"
   },
   "gn-ukipo-commentary": {
-   "entries": 39,
-   "new": 0,
-   "revised": 1,
-   "status": "ok"
+   "error": "HTTP 503",
+   "status": "error"
   },
   "gn-upc": {
-   "entries": 100,
-   "new": 0,
-   "revised": 0,
-   "status": "ok"
+   "error": "HTTP 503",
+   "status": "error"
   },
   "gn-wipr": {
-   "entries": 67,
-   "new": 0,
-   "revised": 0,
-   "status": "ok"
+   "error": "HTTP 429",
+   "status": "error"
   },
   "guardian-bbc": {
    "entries": 20,
-   "new": 0,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
@@ -412,7 +376,7 @@
   },
   "guardian-media": {
    "entries": 20,
-   "new": 5,
+   "new": 2,
    "revised": 0,
    "status": "ok"
   },
@@ -423,14 +387,14 @@
    "status": "ok"
   },
   "hbbtv": {
-   "entries": 12,
+   "entries": 0,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "iam": {
    "entries": 100,
-   "new": 1,
+   "new": 2,
    "revised": 0,
    "status": "ok"
   },
@@ -442,7 +406,7 @@
   },
   "ipfray": {
    "entries": 10,
-   "new": 2,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
@@ -453,18 +417,18 @@
    "status": "ok"
   },
   "ipwatchdog": {
-   "entries": 15,
-   "new": 1,
+   "error": "HTTP 415",
+   "status": "error"
+  },
+  "jdsupra-ip": {
+   "entries": 50,
+   "new": 14,
    "revised": 0,
    "status": "ok"
   },
-  "jdsupra-ip": {
-   "error": "AttributeError: object has no attribute 'version'",
-   "status": "error"
-  },
   "journalism-co-uk": {
-   "entries": 0,
-   "new": 0,
+   "entries": 15,
+   "new": 3,
    "revised": 0,
    "status": "ok"
   },
@@ -494,7 +458,7 @@
   },
   "media-leader": {
    "entries": 10,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -528,7 +492,7 @@
   },
   "patentlyo": {
    "entries": 10,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -539,8 +503,8 @@
    "status": "ok"
   },
   "podnews": {
-   "entries": 151,
-   "new": 1,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -551,7 +515,7 @@
    "status": "ok"
   },
   "reuters-institute": {
-   "entries": 0,
+   "entries": 10,
    "new": 0,
    "revised": 0,
    "status": "ok"
@@ -588,13 +552,13 @@
   },
   "thr-business": {
    "entries": 10,
-   "new": 0,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
   "tvbeurope": {
-   "entries": 20,
-   "new": 3,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -617,8 +581,8 @@
    "status": "ok"
   },
   "variety-global": {
-   "entries": 10,
-   "new": 9,
+   "entries": 20,
+   "new": 11,
    "revised": 0,
    "status": "ok"
   },
@@ -629,10 +593,8 @@
    "status": "ok"
   },
   "vlv": {
-   "entries": 10,
-   "new": 0,
-   "revised": 0,
-   "status": "ok"
+   "error": "HTTP 415",
+   "status": "error"
   },
   "wipo-press": {
    "entries": 10,
@@ -647,13 +609,13 @@
    "status": "ok"
   }
  },
- "started_at": "2026-11-27T12:33:24Z",
+ "started_at": "2026-11-27T23:30:05Z",
  "totals": {
-  "dropped": 201,
-  "entries": 2945,
-  "failing": 2,
-  "new": 122,
-  "ok": 89,
-  "revised": 3
+  "dropped": 116,
+  "entries": 1398,
+  "failing": 21,
+  "new": 67,
+  "ok": 70,
+  "revised": 2
  }
 }
