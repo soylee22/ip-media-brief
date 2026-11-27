@@ -78,6 +78,11 @@
   {
    "rule": "include",
    "source_id": "eff",
+   "title": "Rad Gifts That Fund the Fight: EFF's Holiday Merch Guide for 2026"
+  },
+  {
+   "rule": "include",
+   "source_id": "eff",
    "title": "🎩 Tech Monopolies Make Outages Worse | EFFector 38.21"
   },
   {
@@ -94,14 +99,9 @@
    "rule": "include",
    "source_id": "eff",
    "title": "EFF to Congress: Mass Surveillance Is Too Important to Shove into Must-Pass Bill"
-  },
-  {
-   "rule": "include",
-   "source_id": "eff",
-   "title": "Outage Chaos: Who Turned Off All The Computer?"
   }
  ],
- "finished_at": "2026-11-27T01:47:22Z",
+ "finished_at": "2026-11-27T12:34:08Z",
  "mode": "normal",
  "sources": {
   "access-advance": {
@@ -111,8 +111,8 @@
    "status": "ok"
   },
   "advanced-television": {
-   "entries": 0,
-   "new": 0,
+   "entries": 20,
+   "new": 12,
    "revised": 0,
    "status": "ok"
   },
@@ -130,14 +130,14 @@
   },
   "bbc-news-entertainment": {
    "entries": 25,
-   "new": 5,
-   "revised": 0,
+   "new": 0,
+   "revised": 2,
    "status": "ok"
   },
   "bbc-news-technology": {
    "entries": 21,
-   "new": 1,
-   "revised": 1,
+   "new": 0,
+   "revised": 0,
    "status": "ok"
   },
   "bbcstudios": {
@@ -147,14 +147,14 @@
    "status": "ok"
   },
   "broadband-tv-news": {
-   "entries": 0,
-   "new": 0,
+   "entries": 10,
+   "new": 8,
    "revised": 0,
    "status": "ok"
   },
   "c21": {
    "entries": 22,
-   "new": 2,
+   "new": 13,
    "revised": 0,
    "status": "ok"
   },
@@ -208,7 +208,7 @@
   },
   "deadline-business": {
    "entries": 12,
-   "new": 2,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -220,8 +220,8 @@
   },
   "deadline-international": {
    "entries": 12,
-   "new": 1,
-   "revised": 1,
+   "new": 5,
+   "revised": 0,
    "status": "ok"
   },
   "deadline-itv": {
@@ -255,8 +255,8 @@
    "status": "ok"
   },
   "fcl-copyright": {
-   "entries": 0,
-   "new": 0,
+   "entries": 50,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
@@ -292,13 +292,13 @@
   },
   "gn-bbc-charter": {
    "entries": 100,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-bbc-mediacentre": {
    "entries": 100,
-   "new": 6,
+   "new": 4,
    "revised": 0,
    "status": "ok"
   },
@@ -310,18 +310,18 @@
   },
   "gn-broadcast": {
    "entries": 100,
-   "new": 6,
+   "new": 8,
    "revised": 0,
    "status": "ok"
   },
   "gn-campaign-tv": {
-   "entries": 100,
-   "new": 1,
+   "entries": 93,
+   "new": 20,
    "revised": 0,
    "status": "ok"
   },
   "gn-copyright-ai-uk": {
-   "entries": 100,
+   "entries": 34,
    "new": 0,
    "revised": 0,
    "status": "ok"
@@ -333,14 +333,14 @@
    "status": "ok"
   },
   "gn-epo": {
-   "entries": 81,
-   "new": 0,
+   "entries": 100,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
   "gn-euipo": {
    "entries": 100,
-   "new": 4,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -351,49 +351,49 @@
    "status": "ok"
   },
   "gn-managingip": {
-   "entries": 100,
-   "new": 0,
+   "entries": 48,
+   "new": 12,
    "revised": 0,
    "status": "ok"
   },
   "gn-parliament-media": {
    "entries": 100,
-   "new": 2,
-   "revised": 0,
-   "status": "ok"
-  },
-  "gn-pressgazette": {
-   "entries": 68,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
-  "gn-psm": {
+  "gn-pressgazette": {
    "entries": 100,
-   "new": 2,
+   "new": 5,
    "revised": 0,
    "status": "ok"
   },
-  "gn-sep-frand": {
-   "entries": 28,
+  "gn-psm": {
+   "entries": 52,
    "new": 1,
    "revised": 0,
    "status": "ok"
   },
-  "gn-ukipo-commentary": {
-   "entries": 100,
-   "new": 4,
+  "gn-sep-frand": {
+   "entries": 26,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
+  "gn-ukipo-commentary": {
+   "entries": 39,
+   "new": 0,
+   "revised": 1,
+   "status": "ok"
+  },
   "gn-upc": {
-   "entries": 29,
+   "entries": 100,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-wipr": {
-   "entries": 100,
+   "entries": 67,
    "new": 0,
    "revised": 0,
    "status": "ok"
@@ -412,7 +412,7 @@
   },
   "guardian-media": {
    "entries": 20,
-   "new": 3,
+   "new": 5,
    "revised": 0,
    "status": "ok"
   },
@@ -423,14 +423,14 @@
    "status": "ok"
   },
   "hbbtv": {
-   "entries": 0,
+   "entries": 12,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "iam": {
    "entries": 100,
-   "new": 0,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
@@ -441,33 +441,35 @@
    "status": "ok"
   },
   "ipfray": {
-   "entries": 0,
-   "new": 0,
+   "entries": 10,
+   "new": 2,
    "revised": 0,
    "status": "ok"
   },
   "ipkat": {
    "entries": 20,
-   "new": 0,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
   "ipwatchdog": {
-   "error": "ReadTimeout: The read operation timed out",
-   "status": "error"
+   "entries": 15,
+   "new": 1,
+   "revised": 0,
+   "status": "ok"
   },
   "jdsupra-ip": {
    "error": "AttributeError: object has no attribute 'version'",
    "status": "error"
   },
   "journalism-co-uk": {
-   "entries": 15,
+   "entries": 0,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "juve-patent": {
-   "entries": 0,
+   "entries": 10,
    "new": 0,
    "revised": 0,
    "status": "ok"
@@ -491,8 +493,8 @@
    "status": "ok"
   },
   "media-leader": {
-   "entries": 0,
-   "new": 0,
+   "entries": 10,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
@@ -526,7 +528,7 @@
   },
   "patentlyo": {
    "entries": 10,
-   "new": 0,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
@@ -537,26 +539,26 @@
    "status": "ok"
   },
   "podnews": {
-   "entries": 0,
-   "new": 0,
+   "entries": 151,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
   "radiotoday": {
    "entries": 10,
-   "new": 1,
-   "revised": 1,
+   "new": 4,
+   "revised": 0,
    "status": "ok"
   },
   "reuters-institute": {
-   "entries": 10,
+   "entries": 0,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "screen-daily": {
    "entries": 5,
-   "new": 0,
+   "new": 2,
    "revised": 0,
    "status": "ok"
   },
@@ -591,14 +593,14 @@
    "status": "ok"
   },
   "tvbeurope": {
-   "entries": 0,
-   "new": 0,
+   "entries": 20,
+   "new": 3,
    "revised": 0,
    "status": "ok"
   },
   "ukipo": {
    "entries": 99,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -616,7 +618,7 @@
   },
   "variety-global": {
    "entries": 10,
-   "new": 6,
+   "new": 9,
    "revised": 0,
    "status": "ok"
   },
@@ -640,18 +642,18 @@
   },
   "wtr": {
    "entries": 100,
-   "new": 0,
-   "revised": 1,
+   "new": 1,
+   "revised": 0,
    "status": "ok"
   }
  },
- "started_at": "2026-11-27T01:46:05Z",
+ "started_at": "2026-11-27T12:33:24Z",
  "totals": {
-  "dropped": 196,
-  "entries": 2809,
-  "failing": 3,
-  "new": 49,
-  "ok": 88,
-  "revised": 4
+  "dropped": 201,
+  "entries": 2945,
+  "failing": 2,
+  "new": 122,
+  "ok": 89,
+  "revised": 3
  }
 }
