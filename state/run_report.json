@@ -76,11 +76,6 @@
    "title": "AI Champions' AI Adoption Plans"
   },
   {
-   "rule": "duplicate of a direct source",
-   "source_id": "gn-sep-frand",
-   "title": "Wildanger and AsusTek successful with FRAND defence in UPC dispute against Ericsson"
-  },
-  {
    "rule": "include",
    "source_id": "eff",
    "title": "🎩 Tech Monopolies Make Outages Worse | EFFector 38.21"
@@ -99,9 +94,14 @@
    "rule": "include",
    "source_id": "eff",
    "title": "EFF to Congress: Mass Surveillance Is Too Important to Shove into Must-Pass Bill"
+  },
+  {
+   "rule": "include",
+   "source_id": "eff",
+   "title": "Outage Chaos: Who Turned Off All The Computer?"
   }
  ],
- "finished_at": "2026-11-26T16:59:49Z",
+ "finished_at": "2026-11-27T01:47:22Z",
  "mode": "normal",
  "sources": {
   "access-advance": {
@@ -111,8 +111,8 @@
    "status": "ok"
   },
   "advanced-television": {
-   "entries": 20,
-   "new": 19,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -130,14 +130,14 @@
   },
   "bbc-news-entertainment": {
    "entries": 25,
-   "new": 10,
-   "revised": 2,
+   "new": 5,
+   "revised": 0,
    "status": "ok"
   },
   "bbc-news-technology": {
    "entries": 21,
    "new": 1,
-   "revised": 0,
+   "revised": 1,
    "status": "ok"
   },
   "bbcstudios": {
@@ -147,21 +147,21 @@
    "status": "ok"
   },
   "broadband-tv-news": {
-   "entries": 10,
-   "new": 6,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "c21": {
    "entries": 22,
-   "new": 11,
+   "new": 2,
    "revised": 0,
    "status": "ok"
   },
   "channel4-press": {
    "entries": 9,
-   "new": 3,
-   "revised": 1,
+   "new": 0,
+   "revised": 0,
    "status": "ok"
   },
   "chinaipr": {
@@ -172,7 +172,7 @@
   },
   "cityam-media": {
    "entries": 30,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -202,13 +202,13 @@
   },
   "deadline-bbc": {
    "entries": 12,
-   "new": 3,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "deadline-business": {
    "entries": 12,
-   "new": 0,
+   "new": 2,
    "revised": 0,
    "status": "ok"
   },
@@ -219,8 +219,8 @@
    "status": "ok"
   },
   "deadline-international": {
-   "entries": 24,
-   "new": 8,
+   "entries": 12,
+   "new": 1,
    "revised": 1,
    "status": "ok"
   },
@@ -237,7 +237,7 @@
    "status": "ok"
   },
   "dvb": {
-   "entries": 10,
+   "entries": 0,
    "new": 0,
    "revised": 0,
    "status": "ok"
@@ -250,13 +250,13 @@
   },
   "enders": {
    "entries": 4,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "fcl-copyright": {
-   "entries": 50,
-   "new": 2,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -267,14 +267,14 @@
    "status": "ok"
   },
   "fcl-patent-search": {
-   "entries": 50,
+   "entries": 0,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "fcl-patents-court": {
-   "entries": 50,
-   "new": 1,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -286,31 +286,31 @@
   },
   "ft-media": {
    "entries": 25,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-bbc-charter": {
    "entries": 100,
-   "new": 2,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
   "gn-bbc-mediacentre": {
-   "entries": 96,
-   "new": 4,
+   "entries": 100,
+   "new": 6,
    "revised": 0,
    "status": "ok"
   },
   "gn-bbc-rd": {
-   "entries": 51,
+   "entries": 49,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-broadcast": {
    "entries": 100,
-   "new": 2,
+   "new": 6,
    "revised": 0,
    "status": "ok"
   },
@@ -321,7 +321,7 @@
    "status": "ok"
   },
   "gn-copyright-ai-uk": {
-   "entries": 33,
+   "entries": 100,
    "new": 0,
    "revised": 0,
    "status": "ok"
@@ -333,20 +333,20 @@
    "status": "ok"
   },
   "gn-epo": {
-   "entries": 100,
+   "entries": 81,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-euipo": {
-   "entries": 56,
-   "new": 0,
+   "entries": 100,
+   "new": 4,
    "revised": 0,
    "status": "ok"
   },
   "gn-itv-plc": {
    "entries": 100,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -358,42 +358,42 @@
   },
   "gn-parliament-media": {
    "entries": 100,
-   "new": 0,
-   "revised": 0,
-   "status": "ok"
-  },
-  "gn-pressgazette": {
-   "entries": 71,
-   "new": 4,
-   "revised": 0,
-   "status": "ok"
-  },
-  "gn-psm": {
-   "entries": 52,
-   "new": 0,
-   "revised": 0,
-   "status": "ok"
-  },
-  "gn-sep-frand": {
-   "entries": 100,
-   "new": 3,
-   "revised": 0,
-   "status": "ok"
-  },
-  "gn-ukipo-commentary": {
-   "entries": 38,
    "new": 2,
    "revised": 0,
    "status": "ok"
   },
-  "gn-upc": {
+  "gn-pressgazette": {
+   "entries": 68,
+   "new": 0,
+   "revised": 0,
+   "status": "ok"
+  },
+  "gn-psm": {
    "entries": 100,
+   "new": 2,
+   "revised": 0,
+   "status": "ok"
+  },
+  "gn-sep-frand": {
+   "entries": 28,
    "new": 1,
    "revised": 0,
    "status": "ok"
   },
+  "gn-ukipo-commentary": {
+   "entries": 100,
+   "new": 4,
+   "revised": 0,
+   "status": "ok"
+  },
+  "gn-upc": {
+   "entries": 29,
+   "new": 0,
+   "revised": 0,
+   "status": "ok"
+  },
   "gn-wipr": {
-   "entries": 68,
+   "entries": 100,
    "new": 0,
    "revised": 0,
    "status": "ok"
@@ -412,8 +412,8 @@
   },
   "guardian-media": {
    "entries": 20,
-   "new": 2,
-   "revised": 1,
+   "new": 3,
+   "revised": 0,
    "status": "ok"
   },
   "guardian-tv-industry": {
@@ -423,14 +423,14 @@
    "status": "ok"
   },
   "hbbtv": {
-   "entries": 12,
+   "entries": 0,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "iam": {
    "entries": 100,
-   "new": 3,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -441,35 +441,33 @@
    "status": "ok"
   },
   "ipfray": {
-   "entries": 10,
-   "new": 4,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "ipkat": {
    "entries": 20,
-   "new": 2,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "ipwatchdog": {
-   "error": "HTTP 415",
+   "error": "ReadTimeout: The read operation timed out",
    "status": "error"
   },
   "jdsupra-ip": {
-   "entries": 50,
-   "new": 15,
-   "revised": 0,
-   "status": "ok"
+   "error": "AttributeError: object has no attribute 'version'",
+   "status": "error"
   },
   "journalism-co-uk": {
    "entries": 15,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "juve-patent": {
-   "entries": 10,
+   "entries": 0,
    "new": 0,
    "revised": 0,
    "status": "ok"
@@ -482,7 +480,7 @@
   },
   "kluwer-patent": {
    "entries": 7,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -493,8 +491,8 @@
    "status": "ok"
   },
   "media-leader": {
-   "entries": 10,
-   "new": 3,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -521,8 +519,8 @@
    "status": "ok"
   },
   "osi": {
-   "entries": 10,
-   "new": 1,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -539,15 +537,15 @@
    "status": "ok"
   },
   "podnews": {
-   "entries": 151,
-   "new": 1,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "radiotoday": {
    "entries": 10,
-   "new": 3,
-   "revised": 0,
+   "new": 1,
+   "revised": 1,
    "status": "ok"
   },
   "reuters-institute": {
@@ -558,7 +556,7 @@
   },
   "screen-daily": {
    "entries": 5,
-   "new": 5,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -588,20 +586,20 @@
   },
   "thr-business": {
    "entries": 10,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "tvbeurope": {
-   "entries": 20,
-   "new": 3,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "ukipo": {
    "entries": 99,
-   "new": 3,
-   "revised": 1,
+   "new": 1,
+   "revised": 0,
    "status": "ok"
   },
   "variety-bbc": {
@@ -617,8 +615,8 @@
    "status": "ok"
   },
   "variety-global": {
-   "entries": 20,
-   "new": 17,
+   "entries": 10,
+   "new": 6,
    "revised": 0,
    "status": "ok"
   },
@@ -629,8 +627,10 @@
    "status": "ok"
   },
   "vlv": {
-   "error": "HTTP 415",
-   "status": "error"
+   "entries": 10,
+   "new": 0,
+   "revised": 0,
+   "status": "ok"
   },
   "wipo-press": {
    "entries": 10,
@@ -640,18 +640,18 @@
   },
   "wtr": {
    "entries": 100,
-   "new": 3,
-   "revised": 5,
+   "new": 0,
+   "revised": 1,
    "status": "ok"
   }
  },
- "started_at": "2026-11-26T16:59:07Z",
+ "started_at": "2026-11-27T01:46:05Z",
  "totals": {
-  "dropped": 222,
-  "entries": 3194,
+  "dropped": 196,
+  "entries": 2809,
   "failing": 3,
-  "new": 155,
+  "new": 49,
   "ok": 88,
-  "revised": 11
+  "revised": 4
  }
 }

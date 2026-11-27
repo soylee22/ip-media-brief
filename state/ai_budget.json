@@ -1,7 +1,7 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "gemini_calls": 0,
  "gemini_state": "no_key",
- "ollama_calls": 40,
+ "ollama_calls": 22,
  "ollama_state": "ok"
 }
