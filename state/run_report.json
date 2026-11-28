@@ -101,7 +101,7 @@
    "title": "Signal Moves to Block AI Agents"
   }
  ],
- "finished_at": "2026-11-28T07:56:46Z",
+ "finished_at": "2026-11-28T17:37:54Z",
  "mode": "normal",
  "sources": {
   "access-advance": {
@@ -111,8 +111,8 @@
    "status": "ok"
   },
   "advanced-television": {
-   "entries": 0,
-   "new": 0,
+   "entries": 10,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
@@ -129,14 +129,14 @@
    "status": "ok"
   },
   "bbc-news-entertainment": {
-   "entries": 19,
-   "new": 0,
+   "entries": 23,
+   "new": 4,
    "revised": 0,
    "status": "ok"
   },
   "bbc-news-technology": {
    "entries": 21,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -153,14 +153,14 @@
    "status": "ok"
   },
   "c21": {
-   "entries": 0,
+   "entries": 22,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "channel4-press": {
    "entries": 9,
-   "new": 0,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
@@ -171,7 +171,7 @@
    "status": "ok"
   },
   "cityam-media": {
-   "entries": 0,
+   "entries": 30,
    "new": 0,
    "revised": 0,
    "status": "ok"
@@ -202,7 +202,7 @@
   },
   "deadline-bbc": {
    "entries": 12,
-   "new": 0,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
@@ -220,12 +220,12 @@
   },
   "deadline-international": {
    "entries": 12,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "deadline-itv": {
-   "entries": 0,
+   "entries": 12,
    "new": 0,
    "revised": 0,
    "status": "ok"
@@ -286,24 +286,24 @@
   },
   "ft-media": {
    "entries": 25,
-   "new": 0,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
   "gn-bbc-charter": {
-   "entries": 87,
-   "new": 0,
+   "entries": 100,
+   "new": 3,
    "revised": 0,
    "status": "ok"
   },
   "gn-bbc-mediacentre": {
-   "entries": 95,
-   "new": 4,
+   "entries": 100,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
   "gn-bbc-rd": {
-   "entries": 50,
+   "entries": 91,
    "new": 0,
    "revised": 0,
    "status": "ok"
@@ -315,8 +315,8 @@
    "status": "ok"
   },
   "gn-campaign-tv": {
-   "entries": 79,
-   "new": 4,
+   "entries": 100,
+   "new": 3,
    "revised": 0,
    "status": "ok"
   },
@@ -327,20 +327,20 @@
    "status": "ok"
   },
   "gn-ebu": {
-   "entries": 65,
+   "entries": 66,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-epo": {
    "entries": 100,
-   "new": 2,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
   "gn-euipo": {
    "entries": 100,
-   "new": 6,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -351,7 +351,7 @@
    "status": "ok"
   },
   "gn-managingip": {
-   "entries": 39,
+   "entries": 100,
    "new": 0,
    "revised": 0,
    "status": "ok"
@@ -363,38 +363,38 @@
    "status": "ok"
   },
   "gn-pressgazette": {
-   "entries": 100,
-   "new": 0,
-   "revised": 1,
+   "entries": 66,
+   "new": 2,
+   "revised": 0,
    "status": "ok"
   },
   "gn-psm": {
-   "entries": 52,
+   "entries": 51,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-sep-frand": {
-   "entries": 27,
-   "new": 1,
+   "entries": 25,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-ukipo-commentary": {
    "entries": 40,
-   "new": 2,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
   "gn-upc": {
    "entries": 30,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-wipr": {
-   "entries": 68,
-   "new": 4,
+   "entries": 100,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -412,7 +412,7 @@
   },
   "guardian-media": {
    "entries": 20,
-   "new": 0,
+   "new": 3,
    "revised": 0,
    "status": "ok"
   },
@@ -430,7 +430,7 @@
   },
   "iam": {
    "entries": 100,
-   "new": 20,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
@@ -441,8 +441,8 @@
    "status": "ok"
   },
   "ipfray": {
-   "entries": 0,
-   "new": 0,
+   "entries": 10,
+   "new": 2,
    "revised": 0,
    "status": "ok"
   },
@@ -453,8 +453,8 @@
    "status": "ok"
   },
   "ipwatchdog": {
-   "entries": 15,
-   "new": 1,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -463,7 +463,7 @@
    "status": "error"
   },
   "journalism-co-uk": {
-   "entries": 15,
+   "entries": 0,
    "new": 0,
    "revised": 0,
    "status": "ok"
@@ -539,7 +539,7 @@
    "status": "ok"
   },
   "podnews": {
-   "entries": 0,
+   "entries": 151,
    "new": 0,
    "revised": 0,
    "status": "ok"
@@ -605,20 +605,20 @@
    "status": "ok"
   },
   "variety-bbc": {
-   "entries": 0,
+   "entries": 10,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "variety-business": {
    "entries": 10,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "variety-global": {
-   "entries": 10,
-   "new": 8,
+   "entries": 20,
+   "new": 11,
    "revised": 0,
    "status": "ok"
   },
@@ -647,13 +647,13 @@
    "status": "ok"
   }
  },
- "started_at": "2026-11-28T07:56:04Z",
+ "started_at": "2026-11-28T17:37:12Z",
  "totals": {
   "dropped": 200,
-  "entries": 2424,
+  "entries": 2790,
   "failing": 2,
-  "new": 57,
+  "new": 37,
   "ok": 89,
-  "revised": 1
+  "revised": 0
  }
 }
