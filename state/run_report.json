@@ -76,6 +76,11 @@
    "title": "AI Champions' AI Adoption Plans"
   },
   {
+   "rule": "duplicate of a direct source",
+   "source_id": "gn-euipo",
+   "title": "Trademark filing data could provide early signals of recession risk, new EUIPO study finds"
+  },
+  {
    "rule": "include",
    "source_id": "eff",
    "title": "Rad Gifts That Fund the Fight: EFF's Holiday Merch Guide for 2026"
@@ -94,14 +99,9 @@
    "rule": "include",
    "source_id": "eff",
    "title": "Signal Moves to Block AI Agents"
-  },
-  {
-   "rule": "include",
-   "source_id": "eff",
-   "title": "EFF to Congress: Mass Surveillance Is Too Important to Shove into Must-Pass Bill"
   }
  ],
- "finished_at": "2026-11-27T23:40:25Z",
+ "finished_at": "2026-11-28T07:56:46Z",
  "mode": "normal",
  "sources": {
   "access-advance": {
@@ -111,9 +111,9 @@
    "status": "ok"
   },
   "advanced-television": {
-   "entries": 10,
-   "new": 5,
-   "revised": 1,
+   "entries": 0,
+   "new": 0,
+   "revised": 0,
    "status": "ok"
   },
   "avanci": {
@@ -130,14 +130,14 @@
   },
   "bbc-news-entertainment": {
    "entries": 19,
-   "new": 5,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "bbc-news-technology": {
    "entries": 21,
-   "new": 0,
-   "revised": 1,
+   "new": 1,
+   "revised": 0,
    "status": "ok"
   },
   "bbcstudios": {
@@ -147,14 +147,14 @@
    "status": "ok"
   },
   "broadband-tv-news": {
-   "entries": 10,
-   "new": 1,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "c21": {
-   "entries": 22,
-   "new": 2,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -165,13 +165,13 @@
    "status": "ok"
   },
   "chinaipr": {
-   "entries": 7,
+   "entries": 0,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "cityam-media": {
-   "entries": 30,
+   "entries": 0,
    "new": 0,
    "revised": 0,
    "status": "ok"
@@ -208,7 +208,7 @@
   },
   "deadline-business": {
    "entries": 12,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -220,12 +220,12 @@
   },
   "deadline-international": {
    "entries": 12,
-   "new": 5,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
   "deadline-itv": {
-   "entries": 12,
+   "entries": 0,
    "new": 0,
    "revised": 0,
    "status": "ok"
@@ -255,8 +255,8 @@
    "status": "ok"
   },
   "fcl-copyright": {
-   "entries": 50,
-   "new": 4,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -286,85 +286,121 @@
   },
   "ft-media": {
    "entries": 25,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "gn-bbc-charter": {
-   "error": "HTTP 503",
-   "status": "error"
+   "entries": 87,
+   "new": 0,
+   "revised": 0,
+   "status": "ok"
   },
   "gn-bbc-mediacentre": {
-   "error": "HTTP 503",
-   "status": "error"
+   "entries": 95,
+   "new": 4,
+   "revised": 0,
+   "status": "ok"
   },
   "gn-bbc-rd": {
-   "error": "HTTP 503",
-   "status": "error"
+   "entries": 50,
+   "new": 0,
+   "revised": 0,
+   "status": "ok"
   },
   "gn-broadcast": {
-   "error": "HTTP 503",
-   "status": "error"
+   "entries": 100,
+   "new": 1,
+   "revised": 0,
+   "status": "ok"
   },
   "gn-campaign-tv": {
-   "error": "HTTP 503",
-   "status": "error"
+   "entries": 79,
+   "new": 4,
+   "revised": 0,
+   "status": "ok"
   },
   "gn-copyright-ai-uk": {
-   "error": "HTTP 503",
-   "status": "error"
+   "entries": 34,
+   "new": 0,
+   "revised": 0,
+   "status": "ok"
   },
   "gn-ebu": {
-   "error": "HTTP 503",
-   "status": "error"
+   "entries": 65,
+   "new": 0,
+   "revised": 0,
+   "status": "ok"
   },
   "gn-epo": {
-   "error": "HTTP 503",
-   "status": "error"
+   "entries": 100,
+   "new": 2,
+   "revised": 0,
+   "status": "ok"
   },
   "gn-euipo": {
-   "error": "HTTP 503",
-   "status": "error"
+   "entries": 100,
+   "new": 6,
+   "revised": 0,
+   "status": "ok"
   },
   "gn-itv-plc": {
-   "error": "HTTP 503",
-   "status": "error"
+   "entries": 100,
+   "new": 0,
+   "revised": 0,
+   "status": "ok"
   },
   "gn-managingip": {
-   "error": "HTTP 503",
-   "status": "error"
+   "entries": 39,
+   "new": 0,
+   "revised": 0,
+   "status": "ok"
   },
   "gn-parliament-media": {
-   "error": "HTTP 503",
-   "status": "error"
+   "entries": 100,
+   "new": 0,
+   "revised": 0,
+   "status": "ok"
   },
   "gn-pressgazette": {
-   "error": "HTTP 503",
-   "status": "error"
+   "entries": 100,
+   "new": 0,
+   "revised": 1,
+   "status": "ok"
   },
   "gn-psm": {
-   "error": "HTTP 503",
-   "status": "error"
+   "entries": 52,
+   "new": 0,
+   "revised": 0,
+   "status": "ok"
   },
   "gn-sep-frand": {
-   "error": "HTTP 503",
-   "status": "error"
+   "entries": 27,
+   "new": 1,
+   "revised": 0,
+   "status": "ok"
   },
   "gn-ukipo-commentary": {
-   "error": "HTTP 503",
-   "status": "error"
+   "entries": 40,
+   "new": 2,
+   "revised": 0,
+   "status": "ok"
   },
   "gn-upc": {
-   "error": "HTTP 503",
-   "status": "error"
+   "entries": 30,
+   "new": 1,
+   "revised": 0,
+   "status": "ok"
   },
   "gn-wipr": {
-   "error": "HTTP 429",
-   "status": "error"
+   "entries": 68,
+   "new": 4,
+   "revised": 0,
+   "status": "ok"
   },
   "guardian-bbc": {
    "entries": 20,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -376,7 +412,7 @@
   },
   "guardian-media": {
    "entries": 20,
-   "new": 2,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -394,46 +430,46 @@
   },
   "iam": {
    "entries": 100,
-   "new": 2,
+   "new": 20,
    "revised": 0,
    "status": "ok"
   },
   "ipdraughts": {
-   "entries": 4,
+   "entries": 0,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "ipfray": {
-   "entries": 10,
-   "new": 1,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "ipkat": {
    "entries": 20,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "ipwatchdog": {
-   "error": "HTTP 415",
-   "status": "error"
-  },
-  "jdsupra-ip": {
-   "entries": 50,
-   "new": 14,
+   "entries": 15,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
+  "jdsupra-ip": {
+   "error": "AttributeError: object has no attribute 'version'",
+   "status": "error"
+  },
   "journalism-co-uk": {
    "entries": 15,
-   "new": 3,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "juve-patent": {
-   "entries": 10,
+   "entries": 0,
    "new": 0,
    "revised": 0,
    "status": "ok"
@@ -457,7 +493,7 @@
    "status": "ok"
   },
   "media-leader": {
-   "entries": 10,
+   "entries": 0,
    "new": 0,
    "revised": 0,
    "status": "ok"
@@ -509,20 +545,20 @@
    "status": "ok"
   },
   "radiotoday": {
-   "entries": 10,
-   "new": 4,
+   "entries": 0,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "reuters-institute": {
-   "entries": 10,
+   "entries": 0,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "screen-daily": {
    "entries": 5,
-   "new": 2,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -552,7 +588,7 @@
   },
   "thr-business": {
    "entries": 10,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   },
@@ -569,20 +605,20 @@
    "status": "ok"
   },
   "variety-bbc": {
-   "entries": 10,
+   "entries": 0,
    "new": 0,
    "revised": 0,
    "status": "ok"
   },
   "variety-business": {
    "entries": 10,
-   "new": 0,
+   "new": 1,
    "revised": 0,
    "status": "ok"
   },
   "variety-global": {
-   "entries": 20,
-   "new": 11,
+   "entries": 10,
+   "new": 8,
    "revised": 0,
    "status": "ok"
   },
@@ -593,8 +629,10 @@
    "status": "ok"
   },
   "vlv": {
-   "error": "HTTP 415",
-   "status": "error"
+   "entries": 10,
+   "new": 0,
+   "revised": 0,
+   "status": "ok"
   },
   "wipo-press": {
    "entries": 10,
@@ -604,18 +642,18 @@
   },
   "wtr": {
    "entries": 100,
-   "new": 1,
+   "new": 0,
    "revised": 0,
    "status": "ok"
   }
  },
- "started_at": "2026-11-27T23:30:05Z",
+ "started_at": "2026-11-28T07:56:04Z",
  "totals": {
-  "dropped": 116,
-  "entries": 1398,
-  "failing": 21,
-  "new": 67,
-  "ok": 70,
-  "revised": 2
+  "dropped": 200,
+  "entries": 2424,
+  "failing": 2,
+  "new": 57,
+  "ok": 89,
+  "revised": 1
  }
 }
